@@ -18,7 +18,11 @@
 		</section>
 		<nav class="shadow">
 			<img class="logo" src="logo.png" ng-click="vm.eventDetailView = false" />
-			<span ng-show="vm.jeUlogovan" >ulogovan korisnik je:{{vm.ulogovanKorisnik.name}}</span>
+			<span class="ulogovan-info shadow" ng-show="vm.jeUlogovan" >
+				<img ng-if="vm.ulogovanKorisnik.img != undefined" src="{{vm.ulogovanKorisnik.img}}" /> <br/>
+				Ulogovan korisnik je:{{vm.ulogovanKorisnik.name}}
+				<button ng-if="vm.jeUlogovan" ng-click="vm.jeUlogovan=false" class="login background-color-red">Logout</button>
+			</span>
 			<ul>
 				<li ng-click="vm.eventDetailView = false"><a href="/">Home</a></li>
 				<li><a href="#">Artists</a></li>
@@ -26,9 +30,8 @@
 				<li ng-if="vm.jeUlogovan"><a href="#!/rezervacije"> Moje Rezervacije <i class="fas fa-cart-arrow-down"></i></a></li>
 				<!--<li><a href="#"><i class="fas fa-map-marker-alt"></i> Change Location </a></li>-->
 				<li>
-					<form class="example" style="margin:auto;max-width:350px">
-					  <input type="text" placeholder="Search for desired artist" name="search2" ng-model="searchText.artist">
-					  <button class="background-color-red" type="submit"><i class="fa fa-search"></i></button>
+					<form class="example" style="max-width:400px">
+					  <input type="text" placeholder="Search for desired artist" name="search2" ng-model="searchText.artist"><button class="background-color-red" type="submit"><i class="fa fa-search"></i></button>
 					</form>
 				</li>
 				<li>

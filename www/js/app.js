@@ -99,7 +99,8 @@ app.controller('MainCtrl', function($scope, $http) {
 						username: user.username,
 						//password: user.password',
 						type: user.type,
-						name: user.name
+						name: user.name,
+            img: user.img
 					};
 					return true;
 				}

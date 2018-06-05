@@ -64,6 +64,21 @@ nav {
 img.logo {
 	border-radius: 1em;
 }
+.ulogovan-info {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: #fff;
+	padding: 1em;
+	border-radius: 1em;
+	z-index: 50;
+}
+.ulogovan-info img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	object-fit: cover;
+}
 
 ul {
     list-style-type: none;
@@ -75,7 +90,8 @@ ul {
 }
 
 li {
-    float: left;
+    /*float: left;*/
+    display: inline-block;
 	margin: 1em; /*1.5em;*/
 }
 
@@ -100,15 +116,16 @@ form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
     border: 1px solid grey;
-    float: left;
+    /*float: left;*/
     width: 80%;
     background: #f1f1f1;
 	border-bottom-left-radius: 1em;
 	border-top-left-radius: 1em;
+	margin-right: 0px;
 }
 
 form.example button {
-    float: left;
+    /*float: left;*/
     width: 20%;
     padding: 10px;
     color: white;
@@ -118,6 +135,7 @@ form.example button {
     cursor: pointer;
 	border-bottom-right-radius: 1em;
 	border-top-right-radius: 1em;
+	margin-left: 0px;
 }
 
 form.example button:hover {
