@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
-	<body ng-app="TicketsApp" ng-controller="MyCtrl as vm">
+	<body ng-app="TicketsApp" ng-controller="MainCtrl as vm">
 		<section class="login-section" ng-if="vm.loginForm">
 			<i class="fas fa-times-circle" ng-click="vm.loginForm=false"></i>
 			<h1>Login</h1>
@@ -17,12 +17,12 @@
 			<button class="register">Registracija</button>
 		</section>
 		<nav class="shadow">
-			<img class="logo" src="logo.png" />
+			<img class="logo" src="logo.png" ng-click="vm.eventDetailView = false" />
 			<ul>
-				<li><a href="#">Retail store</a></li>
+				<li ng-click="vm.eventDetailView = false"><a href="/">Home</a></li>
 				<li><a href="#">Artists</a></li>
-				<li><a href="#">About us</a></li>
-				<li><a href="#"> Moje Rezervacije <i class="fas fa-cart-arrow-down"></i></a></li>
+				<li><a href="#!/about">About us</a></li>
+				<li ng-if="vm.jeUlogovan"><a href="#!/rezervacije"> Moje Rezervacije <i class="fas fa-cart-arrow-down"></i></a></li>
 				<!--<li><a href="#"><i class="fas fa-map-marker-alt"></i> Change Location </a></li>-->
 				<li>
 					<form class="example" style="margin:auto;max-width:350px">
@@ -54,7 +54,7 @@
 			<h5>{{vm.event.date}}</h5>
 			<p>{{vm.event.description}}</p>
 		</aside>
-		<main ng-if="!vm.eventDetailView">
+		<main ng-if="!vm.eventDetailView" ng-view="">
 			<article ng-repeat="event in vm.events | filter:searchText" class="event-list-item shadow pointer" ng-click="vm.eventDetailView = true; vm.event = event;">
 				<img class="event-list-item-img" src="{{event.band_photo}}" />
 				<h3>{{event.artist}}</h3>
@@ -73,6 +73,7 @@
 	    <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
 	    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 		-->
+		<script src="bower_components/angular-route/angular-route.js"></script>
 
 	    <script src="js/app.js"></script>
 		
@@ -94,11 +95,7 @@
 		  for (i = 0; i < x.length; i++) {
 		     x[i].style.display = "none";  
 		  }
-		  for (i = 0; i < dots.length; i++) {
-		     dots[i].className = dots[i].className.replace(" w3-white", "");
-		  }
-		  x[slideIndex-1].style.display = "block";  
-		  dots[slideIndex-1].className += " w3-white";
+		  x[slideIndex-1].style.display = "block";
 		}
 		</script>
 	</body>

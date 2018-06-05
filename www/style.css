@@ -1,9 +1,8 @@
 body {
     font-family: Arial;
 	background: url('images/pozadina-627x452.jpg');
-	background-position: cover;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-position: contain;
+	background-repeat: repeat;
 	margin: 2% 10%;
 	-webkit-box-shadow: 0px -5px 19px -2px rgba(0,0,0,1);
 	-moz-box-shadow: 0px -5px 19px -2px rgba(0,0,0,1);
