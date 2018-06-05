@@ -26,7 +26,7 @@
 				<!--<li><a href="#"><i class="fas fa-map-marker-alt"></i> Change Location </a></li>-->
 				<li>
 					<form class="example" style="margin:auto;max-width:350px">
-					  <input type="text" placeholder="Search..." name="search2">
+					  <input type="text" placeholder="Search for desired artist" name="search2" ng-model="searchText.artist">
 					  <button class="background-color-red" type="submit"><i class="fa fa-search"></i></button>
 					</form>
 				</li>
@@ -55,119 +55,10 @@
 			<p>{{vm.event.description}}</p>
 		</aside>
 		<main ng-if="!vm.eventDetailView">
-			<article ng-repeat="event in vm.events" class="event-list-item shadow pointer" ng-click="vm.eventDetailView = true; vm.event = event;">
+			<article ng-repeat="event in vm.events | filter:searchText" class="event-list-item shadow pointer" ng-click="vm.eventDetailView = true; vm.event = event;">
 				<img class="event-list-item-img" src="{{event.band_photo}}" />
 				<h3>{{event.artist}}</h3>
 				<p>{{event.date}}</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="https://i.pinimg.com/736x/28/52/86/2852863eb55e0840daa849026bdc4e3b--gig-poster-poster-art.jpg" />
-				<h3>WhiteSnake</h3>
-				<p>11.10.2018.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="https://image.ceneostatic.pl/data/products/20075335/i-metallica-plakat.jpg" />
-				<h3>Metallica</h3>
-				<p>1.1.2019.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="https://images.wolfgangsvault.com/dire-straits/poster/memorabilia/ARC920130-PO.jpg" />
-				<h3>Dire Straits</h3>
-				<p>30.1.2019.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="https://render.fineartamerica.com/images/rendered/default/poster/8/10/break/images-medium-5/led-zeppelin-fht-designs.jpg" />
-				<h3>Led Zeppelin</h3>
-				<p>15.9.2018.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="http://www.jukeboxmetal.com/wp-content/uploads/theprettyreckless2017moscowposter.jpg" />
-				<h3>The Pretty Reckless</h3>
-				<p>9.11.2019.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="https://s3.amazonaws.com/busites_www/hollywoodvampirescom/content/articles/hollywoodvampires_poland_localised_artwork.jpeg" />
-				<h3>Hollywood Vampires</h3>
-				<p>11.11.2019.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="https://www.barakashop.co.za/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/j/i/jimi_hendrix_poster.jpg" />
-				<h3>Jimi Hendrix</h3>
-				<p>1.3.2019.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="http://www.togomeetings.com/wp-content/uploads/2017/08/wonderful-elvis-presley-posters-and-beautiful-ideas-of-index-wp-11.jpg" />
-				<h3>Elvis Presley</h3>
-				<p>1.1.2019.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="http://216.70.116.101/wp-content/uploads/2014/08/dancing_with_myself_1Dmini.png" />
-				<h3>Billy Idol</h3>
-				<p>30.7.2019.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="https://images.sk-static.com/images/media/img/col3/20151104-125442-245962.jpg" />
-				<h3>Rainbow</h3>
-				<p>7.7.2018.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-            
-            <article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="http://cdn.metallus.it/wp-content/uploads/2011/02/aerosmithband2010.jpg" />
-				<h3>Aerosmith</h3>
-				<p>4.6.2018.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-            
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="https://78.media.tumblr.com/5d5132fea498aff4eb8503ebfe5a1631/tumblr_p2v5aik87R1rmctjho1_500.jpg" />
-				<h3>Greta Van Fleet</h3>
-				<p>1.3.2019.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-            
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="https://f4.bcbits.com/img/a2547132321_10.jpg" />
-				<h3>Jared James Nichols</h3>
-				<p>1.1.2019.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-            
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="http://rockandrollshirt.com/wp-content/gallery/posters/scorpsposter.jpg" />
-				<h3>Scorpions</h3>
-				<p>30.7.2019.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-            
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="http://xdn.tf.rs/2015/02/19/RIBLJA-CORBA.jpg" />
-				<h3>Riblja Corba</h3>
-				<p>7.7.2018.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-			
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="https://f4.bcbits.com/img/a2547132321_10.jpg" />
-				<h3>Jared James Nichols</h3>
-				<p>1.1.2019.</p>
-				<button class="buy background-color-red">Kupi kartu</button>
-			</article>
-			
-			<article class="event-list-item shadow pointer">
-				<img class="event-list-item-img" src="http://xdn.tf.rs/2015/02/19/RIBLJA-CORBA.jpg" />
-				<h3>Riblja Corba</h3>
-				<p>7.7.2018.</p>
 				<button class="buy background-color-red">Kupi kartu</button>
 			</article>
 		</main>
