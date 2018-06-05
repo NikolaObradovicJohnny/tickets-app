@@ -63,6 +63,7 @@ app.controller('MainCtrl', function($scope, $http) {
 	vm.password = '';
 	vm.jeUlogovan = false;
 	vm.events = [];
+	vm.users = [];
 	vm.eventDetailView = false;
 
     $scope.alerts = [
@@ -77,19 +78,42 @@ app.controller('MainCtrl', function($scope, $http) {
 		console.log(vm.username);
 		console.log(vm.password);
 		
-		if(vm.username === 'pera' && vm.password == '12345') {
-			vm.ulogovanKorisnik = {
-				username: 'pera',
-				password: '12345',
-				type: 'user',
-				name: 'Petar Petrovic'				
-			}
-		}
+		vm.jeUlogovan = vm.isValidUser();
+		
+
+		
 		vm.loginForm = false;
-		vm.jeUlogovan = true;
+		
 		
     };
 	
+	vm.isValidUser = function () {
+		//read from file
+
+		for(var i in vm.users){
+			var user = vm.users[i];
+			if(vm.username === user.username ) {
+				console.log('naso sam usera');
+				if(vm.password === user.password ) {
+					vm.ulogovanKorisnik = {
+						username: user.username,
+						//password: user.password',
+						type: user.type,
+						name: user.name
+					};
+					return true;
+				}
+				else 
+				{
+					alert("wrong password");
+					return false;
+				}
+			};
+		}
+		alert("wrong username");
+		return false;
+
+	};
 /*
     vm.kupi = function(el){
       vm.korpa.push({proizvod: el, kolicina: 1});
@@ -118,8 +142,27 @@ app.controller('MainCtrl', function($scope, $http) {
           });
     };
 	
-    vm.init();
+    vm.getUsers = function(){
+		var request = {
+          method: "GET",
+		  url: "./users.json"
+		}
+		$http(request).then(
+			function(response){
+				console.log(response);
 
+				for(var i in response.data){
+					var user = response.data[i];
+					vm.users.push(user);
+				};
+			}, 
+			function(response){
+				vm.message = 'error';
+		});
+	 };	
+	 
+    vm.init();
+    vm.getUsers();
 
 });
 

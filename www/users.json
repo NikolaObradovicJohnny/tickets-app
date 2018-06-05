@@ -1,0 +1,42 @@
+[
+	{	
+		"username": "pera",
+		"password": "12345",
+		"type": 	"user",
+		"name": 	"Petar Petrovic"
+	},
+	{	
+		"username": "marko",
+		"password": "1234",
+		"type": 	"admin",
+		"name": 	"Petar Petrovic"
+	},
+	{	
+		"username": "gandalf",
+		"password": "123",
+		"type": 	"user",
+		"name": 	"Gandalf the Grey"
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
