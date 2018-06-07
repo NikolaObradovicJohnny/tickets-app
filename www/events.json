@@ -10,7 +10,14 @@
 	},
 	"photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRz5Lk95lylTy2gHKiFV49wN4GJHW3c9tMRUt-L1h4mpCmi4X_",
 	"band_photo": "https://www.billboard.com/files/media/dave-grohl-guns-n-roses-live-cr-Katarina-Benzova-2017-billboard-1548.jpg",
-	"description": "deatalji dogadjaja",
+	"gallery":{
+		"photo1": "https://assets.forwardcdn.com/images/cropped/gettyimages-643426788-1499978652.jpg",
+		"photo2": "https://img.wennermedia.com/article-leads-horizontal/rs-234712-GettyImages-80557019.jpg",
+		"photo3": "https://i.ytimg.com/vi/BMMaSaVIYK0/maxresdefault.jpg",
+		"photo4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc_Py6me17dCuyF3iXvuLfatGR0E74lrm5OmcY4AdwrAmM_IjiEQ"
+	},
+
+	"description": "Guns N' Roses, often abbreviated as GNR, is an American hard rock band from Los Angeles, California, formed in 1985. The lineup, when first signed to Geffen Records in 1986, consisted of vocalist Axl Rose, lead guitarist Slash, rhythm guitarist Izzy Stradlin, bassist Duff McKagan, and drummer Steven Adler. Guns N' Roses has released six studio albums, accumulating sales of more than 100 million records worldwide, including 45 million in the United States, making them the 41st best-selling artist of all time.",
 	"inStock": 100000,
 	"poster": "https://images-na.ssl-images-amazon.com/images/I/51FN%2B-6mMtL._SX351_BO1,204,203,200_.jpg"
 	},
@@ -25,7 +32,13 @@
 	},
 	"photo": "https://vignette.wikia.nocookie.net/starpolar/images/b/b2/Metallica_logo_wallpaper.jpg/revision/latest?cb=20150224011904",
 	"band_photo": "http://www.metalsucks.net/wp-content/uploads/2017/08/metallicaheavymontreal2017.jpg",
-	"description": "",
+	"gallery":{
+		"photo1": "http://2.bp.blogspot.com/-VtHqPkUPKpc/TrLXHL15MfI/AAAAAAAAF68/mS6ZTLmwpdA/s1600/metallica+Bangalore.jpg",
+		"photo2": "https://img.wennermedia.com/article-leads-horizontal/rs-metallica-v3-925299ac-82c1-4387-a37e-0cbba3d1d6bf.jpg",
+		"photo3": "https://img.wennermedia.com/article-leads-horizontal/rs-226654-GettyImages-167946331.jpg",
+		"photo4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjdVz0JIpExWLgnnzj0BuBzVtuuP0vhqUTYzDjw6ye8joQRZ-Dpg"
+	},
+	"description": "Metallica, one of the biggest selling acts in American history, were born on October 28, 1981 when drummer Lars Ulrich and guitar player/singer James Hetfield got together via Ulrich’s LA Recycler newspaper ad. Soon, the two had recruited Hetfield’s friend and housemate Ron McGovney to play bass, Dave Mustaine to play lead guitar, and taken the name Metallica after a suggestion from Bay Area metal scene friend Ron Quintana. Their ascent was to be relatively quick, driven by sheer work-rate, effort and a rare musical chemistry. After hitting the opener’s circuit in LA (where they supported the likes of Saxon) they recorded their first ever demo No Life ‘Til Leather. The tape-trading circuit went crazy for it, and after repeatedly well-received shows in the Bay Area, Metallica found themselves relocating there after convincing bassist Cliff Burton to leave his band Trauma and replace McGovney.",
 	"inStock": 100000,
 	"poster": "https://image.ceneostatic.pl/data/products/20075335/i-metallica-plakat.jpg"
 	},
@@ -40,7 +53,13 @@
 	},
 	"photo": "http://www.amaliearena.com/assets/img/iron_640x360-bcbca896aa.jpg",
 	"band_photo": "http://assets.blabbermouth.net/media/ironmaiden2015bandwlogo_638.jpg",
-	"description": "",
+	"gallery":{
+		"photo1": "https://www.vreg.ca/wp-content/uploads/2016/04/Iron-Maiden-Vancouver-Concert.jpg",
+		"photo2": "http://www.completemusicupdate.com/wp-content/uploads/2017/03/ironmaiden1250.jpg",
+		"photo3": "http://assets.blabbermouth.net/media/ironmaidenoberhausen2017_638.jpg",
+		"photo4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj3hSQt86Mh9mMht2QRQDFj2v22Xf6gzYGe5Y_gky30hPqdGCZqA"
+	},
+	"description": "From their origin in London's East End to the most glamorous stages in the world, Iron Maiden have been one of the world's greatest rock bands for over twenty years, selling in excess of 50 million records. Studio Albums: Iron Maiden (1980) Killers (1981) The Number of the Beast (1982) Piece of Mind (1983) Powerslave (1984) Somewhere in Time (1986) Seventh Son of a Seventh Son (1988) No Prayer for the Dying (1990) Fear of the Dark (1992) The X Factor (1995) Virtual XI (1998) Brave New World (2000) Dance of Death (2003) A Matter of Life and Death (2006) The Final Frontier (2010) The Book Of Souls (2015)",
 	"inStock": 100000,
 	"poster": "http://musically.com/wp-content/uploads/2016/10/Iron-Maiden-2017-tour.jpg"
 	},
@@ -55,7 +74,13 @@
 	},
 	"photo": "http://novipazaronline.org/wp-content/uploads/2016/12/Black-Sabbath-Large-Wallpaper.jpg",
 	"band_photo": "http://balkanrock.com/wp-content/uploads/black_sabbath.jpg",
-	"description": "",
+	"gallery":{
+		"photo1": "http://assets.blabbermouth.net/media/blacksabbathchicagojan2016_2_638.jpg",
+		"photo2": "https://img.wennermedia.com/article-leads-horizontal/rs-208266-GettyImages-481801891.jpg",
+		"photo3": "https://cdn.wegow.com/media/artist-media/black-sabbath/black-sabbath-1496135487.-1x2560.jpg",
+		"photo4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkkSxE_WWoBuDF_7xD6OnIMqa1oSVbGPyhjGC4Eqm5799usfp0"
+	},
+	"description": "After Black Sabbath had lost their drummer, Bill Ward, they started to audition a number of drummers and found all of them unsuitable. Supposedly someone gave a demo tape with Vinny Appice to Tony Iommi who listened the tape and called to Ronnie James Dio immediately and recommended Vinny Appice to him. Appice was auditioned and invited to join the band.Black Sabbath and Blue Oyster Cult decided to do a tour together in the USA in the fall of 1980. Both of the bands played as the main band of the shows, Black Sabbath on every second night and Blue Oyster Cult on every other night. At least some of the shows included other bands too. The tour was called as 'Black & Blue' US tour.On October 9th, 1980 at Mecca Arena in Milwaukee the Black & Blue show produced a riot. The riot started when Black Sabbath ended their show in the middle when someone threw a beer bottle in Geezer Butler's face. Eight policemen, several fans and Geezer Butler were injured and 160 people were arrested in the riot, which required police forces from all over the city before it was under control. The Mecca Arena was destroyed rather badly.When the Heaven And Hell tour was finished, Black Sabbath went to record a new album called Mob Rules to Record Plant studios in Los Angeles, USA, with producer Martin Birch again.In 1982 Dio left Black Sabbath with the drummer Vinny Appice. After the split there was a huge amount of press releases and interviews from Black Sabbath where both Geezer and Tony Iommi accused Ronnie and Vinny for sneaking into the studios during nights to mix bass and especially guitar volume lower and to mix up vocals and drums on the Live Evil album. Later, rather quietly, Tony Iommi said that he was wrong with his accusations. Live Evil was produced by Tony Iommi and Geezer Butler.Ronnie and Vinny didn't like those accusations and decided to leave together and form Dio (the band). This happened in October 1982. There were other reasons behind the split too, like the way how Tony and Geezer left the concert venues right after the show without meeting the fans backstage etc. Tony and Geezer mixed the rest of the Live Evil album themselves.The reason for Iommi's beliefs was the fact that he and Geezer couldn't ever appear at the studios at the same time with Ronnie and Vinny. So either of those parties didn't know too well what the others were doing.",
 	"inStock": 100000,
 	"poster": "https://i.pinimg.com/736x/bd/8a/18/bd8a18fda9691f6500ecb6cac2866bda--tour-posters-band-posters.jpg"
 	},

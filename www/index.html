@@ -52,12 +52,32 @@
 				<span class="arow-right text-shadow" onclick="plusDivs(1)">&#10095;</span>
 			</section>
 		</header>
-		<aside ng-if="vm.eventDetailView">
-			<img class="event-img" src="{{vm.event.photo}}" />
+		<aside ng-if="vm.eventDetailView" class="event-list-item">
+			<img class="event-list-item-img2" src="{{vm.event.photo}}" />
 			<h1>{{vm.event.artist}}</h1>
-			<h5>{{vm.event.date}}</h5>
-			<p>{{vm.event.description}}</p>
+			<h5>{{vm.event.date}} &nbsp &nbsp{{vm.event.location.city}}</h5>
+			<button class="buy background-color-red">Kupi kartu</button><br><br>
+			
+			<div class="event-description event-description-shadow">
+			Event details<br><br>
+			{{vm.event.description}}
+			</div>
+			<div class="gallery-img">
+			<br>
+			<p class="gallery">Gallery</p>
+				<div class="gallery-img gallery-img-size">
+				
+				<img class="gallery-img-size" src="{{vm.event.gallery.photo1}}" />
+				<img class="gallery-img-size" src="{{vm.event.gallery.photo2}}" />
+				<img class="gallery-img-size" src="{{vm.event.gallery.photo3}}" />
+				<img class="gallery-img-size" src="{{vm.event.gallery.photo4}}" />
+				<br><br><br>
+				</div>
+				
+			</div>
+			
 		</aside>
+		
 		<main ng-if="!vm.eventDetailView" ng-view="">
 		</main>
 		<footer> 
@@ -96,5 +116,6 @@
 		  x[slideIndex-1].style.display = "block";
 		}
 		</script>
+		
 	</body>
 </html>
