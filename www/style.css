@@ -207,18 +207,34 @@ main {
 	background-color: #333;
 	text-align: center;
 	align-content: center;
-	margin-top: 1em;
+	margin-top: 2em;
 }
 
 article.event-list-item {
 	width: 20%;
 	display: inline-block;
-	margin: 1em;
+	margin: 2em;
 	padding: 1em;
 	border-radius: 1em;
 	background-color: #555;
 }
-
+aside.event-list-item{
+	display: block;
+	background-color: #555;	
+    align-content: center;
+	text-align: center;
+	
+}
+img.event-list-item-img2{
+	height: 280px;
+	float:none;
+	margin-top:1em;
+	cursor: pointer;
+	border-bottom-right-radius: 1em;
+	border-top-right-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border-top-left-radius: 1em;
+}
 img.event-list-item-img {
 	width: 100%;
 	height: 180px;
@@ -226,9 +242,71 @@ img.event-list-item-img {
 	position: relative;
 	object-fit: contain;
 }
+div.event-description{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background-color: #333;
+	padding: 1em;
+	color: #f2f2f2;
+	cursor: pointer;
+	
+}
+div.event-description-shadow{
+	-webkit-box-shadow: 0px 0px 50px 13px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 50px 13px rgba(0,0,0,1);
+	box-shadow: 0px 0px 50px 13px rgba(0,0,0,1);
+}
+p.gallery{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+div.gallery-img {
+    width: 100%;
+	margin-top: 1em;
+	background-color: #f2f2f2;
+	text-align: center;
+	text-decoration: italic-bold;
+}
+img.gallery-img-size{
+	height: 160px;
+	cursor: pointer;
+}
+img.gallery-img-size:hover {opacity: 0.7;}
+
+
+/* modal za galeriju*/
+img.modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+
+
+
+
+
+
+
+
 
 
 .pointer {cursor:pointer}
+/* div.shadow{ */
+	/* -webkit-box-shadow: 0px 0px 95px -25px rgba(0,0,0,1); */
+	/* -moz-box-shadow: 0px 0px 95px -25px rgba(0,0,0,1); */
+	/* box-shadow: 0px 0px 95px -25px rgba(0,0,0,1); --> */
+	
+/* } */
 .shadow {
 	-webkit-box-shadow: 0px 0px 19px -2px rgba(0,0,0,1);
 	-moz-box-shadow: 0px 0px 19px -2px rgba(0,0,0,1);
@@ -249,7 +327,6 @@ footer {
 	color: #fff;
 	border-top: solid white 1px;
 }
-
 
 /* Animations */
 
