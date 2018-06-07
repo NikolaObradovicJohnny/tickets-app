@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<title> Tickets </title>
 		<link rel="icon" type="image/icon" href="logo.png" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -31,7 +32,8 @@
 				<!--<li><a href="#"><i class="fas fa-map-marker-alt"></i> Change Location </a></li>-->
 				<li>
 					<form class="example" style="max-width:400px">
-					  <input type="text" placeholder="Search for desired artist" name="search2" ng-model="searchText.artist"><button class="background-color-red" type="submit"><i class="fa fa-search"></i></button>
+					  <input type="text" placeholder="Search for desired artist" name="search2" ng-model="searchText.artist"><i class="fa fa-search"></i>
+					  <!-- <button class="background-color-red" type="submit"><i class="fa fa-search"></i></button> -->
 					</form>
 				</li>
 				<li>
@@ -53,29 +55,36 @@
 			</section>
 		</header>
 		<aside ng-if="vm.eventDetailView" class="event-list-item">
-			<img class="event-list-item-img2" src="{{vm.event.photo}}" />
+			<img class="event-list-item-img2" src="{{vm.event.poster}}" />
 			<h1>{{vm.event.artist}}</h1>
 			<h5>{{vm.event.date}} &nbsp &nbsp{{vm.event.location.city}}</h5>
-			<button class="buy background-color-red">Kupi kartu</button><br><br>
-			
+			<section class="buy-ticket">
+				<select class="background-color-red">
+					<option>Parter</option>
+					<option>Tribina</option>
+					<option>Fan pit</option>
+				</select>
+				<label>kolicina:</label>
+				<input type="number" min="0" ng-model="brojKomada" placeholder="kolicina">
+				<label>ukupna cena:</label>
+				<input type="number" ng-model="500*brojKomada" readonly="readonly"> din.
+				<button class="buy background-color-red">Kupi kartu</button><br><br>
+			</section>
 			<div class="event-description event-description-shadow">
 			Event details<br><br>
 			{{vm.event.description}}
 			</div>
 			<div class="gallery-img">
+			<!-- <img class="gallery-img-full" src="{{vm.event.photo}}" /> -->
 			<br>
 			<p class="gallery">Gallery</p>
 				<div class="gallery-img gallery-img-size">
-				
-				<img class="gallery-img-size" src="{{vm.event.gallery.photo1}}" />
-				<img class="gallery-img-size" src="{{vm.event.gallery.photo2}}" />
-				<img class="gallery-img-size" src="{{vm.event.gallery.photo3}}" />
-				<img class="gallery-img-size" src="{{vm.event.gallery.photo4}}" />
-				<br><br><br>
+					<img ng-repeat="photo in vm.event.gallery" class="gallery-img-size" src="{{photo}}" />
+					<img class="gallery-img-full" src="{{vm.event.band_photo}}" />
 				</div>
 				
 			</div>
-			
+
 		</aside>
 		
 		<main ng-if="!vm.eventDetailView" ng-view="">

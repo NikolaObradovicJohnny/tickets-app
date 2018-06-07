@@ -73,6 +73,12 @@ app.controller('MainCtrl', function($scope, $http) {
         $scope.alerts.splice(index, 1);
     };
 
+    // vm.logout = function () {
+    //   vm.jeUlogovan=false;
+    //   vm.username = '';
+    //   vm.password = '';
+    // }
+
     vm.login = function () {
 		console.log('login');
 		console.log(vm.username);
@@ -81,7 +87,8 @@ app.controller('MainCtrl', function($scope, $http) {
 		vm.jeUlogovan = vm.isValidUser();
 		
 
-		
+		vm.username = '';
+    vm.password = '';
 		vm.loginForm = false;
 		
 		

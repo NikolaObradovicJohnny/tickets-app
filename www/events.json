@@ -10,15 +10,30 @@
 	},
 	"photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRz5Lk95lylTy2gHKiFV49wN4GJHW3c9tMRUt-L1h4mpCmi4X_",
 	"band_photo": "https://www.billboard.com/files/media/dave-grohl-guns-n-roses-live-cr-Katarina-Benzova-2017-billboard-1548.jpg",
-	"gallery":{
-		"photo1": "https://assets.forwardcdn.com/images/cropped/gettyimages-643426788-1499978652.jpg",
-		"photo2": "https://img.wennermedia.com/article-leads-horizontal/rs-234712-GettyImages-80557019.jpg",
-		"photo3": "https://i.ytimg.com/vi/BMMaSaVIYK0/maxresdefault.jpg",
-		"photo4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc_Py6me17dCuyF3iXvuLfatGR0E74lrm5OmcY4AdwrAmM_IjiEQ"
-	},
-
+	"gallery": [
+		"https://assets.forwardcdn.com/images/cropped/gettyimages-643426788-1499978652.jpg",
+		"https://img.wennermedia.com/article-leads-horizontal/rs-234712-GettyImages-80557019.jpg",
+		"https://i.ytimg.com/vi/BMMaSaVIYK0/maxresdefault.jpg",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc_Py6me17dCuyF3iXvuLfatGR0E74lrm5OmcY4AdwrAmM_IjiEQ"
+		],
 	"description": "Guns N' Roses, often abbreviated as GNR, is an American hard rock band from Los Angeles, California, formed in 1985. The lineup, when first signed to Geffen Records in 1986, consisted of vocalist Axl Rose, lead guitarist Slash, rhythm guitarist Izzy Stradlin, bassist Duff McKagan, and drummer Steven Adler. Guns N' Roses has released six studio albums, accumulating sales of more than 100 million records worldwide, including 45 million in the United States, making them the 41st best-selling artist of all time.",
-	"inStock": 100000,
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 4950,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 4200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 6500,
+			"inStock":10000
+		}
+	],
 	"poster": "https://images-na.ssl-images-amazon.com/images/I/51FN%2B-6mMtL._SX351_BO1,204,203,200_.jpg"
 	},
 	{
@@ -39,7 +54,23 @@
 		"photo4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjdVz0JIpExWLgnnzj0BuBzVtuuP0vhqUTYzDjw6ye8joQRZ-Dpg"
 	},
 	"description": "Metallica, one of the biggest selling acts in American history, were born on October 28, 1981 when drummer Lars Ulrich and guitar player/singer James Hetfield got together via Ulrich’s LA Recycler newspaper ad. Soon, the two had recruited Hetfield’s friend and housemate Ron McGovney to play bass, Dave Mustaine to play lead guitar, and taken the name Metallica after a suggestion from Bay Area metal scene friend Ron Quintana. Their ascent was to be relatively quick, driven by sheer work-rate, effort and a rare musical chemistry. After hitting the opener’s circuit in LA (where they supported the likes of Saxon) they recorded their first ever demo No Life ‘Til Leather. The tape-trading circuit went crazy for it, and after repeatedly well-received shows in the Bay Area, Metallica found themselves relocating there after convincing bassist Cliff Burton to leave his band Trauma and replace McGovney.",
-	"inStock": 100000,
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 4950,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 4200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 6500,
+			"inStock":10000
+		}
+	],
 	"poster": "https://image.ceneostatic.pl/data/products/20075335/i-metallica-plakat.jpg"
 	},
 	{

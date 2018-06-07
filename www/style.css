@@ -1,8 +1,10 @@
 body {
     font-family: Arial;
 	background: url('images/pozadina-627x452.jpg');
-	background-position: contain;
-	background-repeat: repeat;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 	margin: 2% 10%;
 	-webkit-box-shadow: 0px -5px 19px -2px rgba(0,0,0,1);
 	-moz-box-shadow: 0px -5px 19px -2px rgba(0,0,0,1);
@@ -112,17 +114,41 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
-form.example input[type=text] {
+/*form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
     border: 1px solid grey;
-    /*float: left;*/
     width: 80%;
     background: #f1f1f1;
 	border-bottom-left-radius: 1em;
 	border-top-left-radius: 1em;
 	margin-right: 0px;
+}*/
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 90%;
+    background: #f1f1f1;
+	border-radius: 1em;
+	margin-right: 0px;
+	color: #333;
 }
+form.example i {
+	width: 10%;
+	margin-left: -12%;
+}
+form.example input::placeholder {
+  color: #333;
+}
+form.example input:placeholder-shown {
+  border: 2px solid #222;
+}
+form.example input:focus { 
+    background-color: yellow;
+    border-radius: 1em;
+}
+
 
 form.example button {
     /*float: left;*/
@@ -225,13 +251,14 @@ main {
 	background-color: #333;
 	text-align: center;
 	align-content: center;
-	margin-top: 2em;
+	margin-top: 1em;
+	padding-top: 1em;
 }
 
 article.event-list-item {
 	width: 20%;
 	display: inline-block;
-	margin: 2em;
+	margin: 1em;
 	padding: 1em;
 	border-radius: 1em;
 	background-color: #555;
@@ -274,6 +301,36 @@ div.event-description-shadow{
 	-moz-box-shadow: 0px 0px 50px 13px rgba(0,0,0,1);
 	box-shadow: 0px 0px 50px 13px rgba(0,0,0,1);
 }
+
+/*select, input za rezervaciju karata */
+section.buy-ticket {
+	background-color: #fff;
+	border-radius: 1em;
+	margin: 0% 15%;
+	padding: 1em;
+
+}
+section.buy-ticket select, section.buy-ticket input {
+	border: none;
+    /*color: white;*/
+    padding: 0.5em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+	/*border-radius: 1em;*/
+	border: 1px solid grey;
+	/*cursor: pointer;*/
+}
+section.buy-ticket select,section.buy-ticket button {
+	color: #fff;
+	font-size: 1em;
+}
+section.buy-ticket input {
+	width: 5em;
+	padding: 0.5em 0em;
+}
+
 p.gallery{
 	font-size: 25px;
 	font-weight: bold;
@@ -287,11 +344,22 @@ div.gallery-img {
 	text-decoration: italic-bold;
 }
 img.gallery-img-size{
+	width: 25%;
+	position: relative;
 	height: 160px;
 	cursor: pointer;
+	object-fit: cover;
 }
 img.gallery-img-size:hover {opacity: 0.7;}
 
+img.gallery-img-full {
+	width: 100%;
+	height: 40%;
+	position: relative;
+	object-fit: cover;
+	margin: 0px;
+	padding: 0px;
+}
 
 /* modal za galeriju*/
 img.modal{
