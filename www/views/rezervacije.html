@@ -1,8 +1,72 @@
-<link rel="stylesheet" type="text/css" href="styles/calendar-style.css">
+<!-- <link rel="stylesheet" type="text/css" href="styles/calendar-style.css"> -->
 
-<section ng-controller="RezervacijeCtrl">
+<article class="rezervacije" ng-controller="RezervacijeCtrl">
 <!-- <section> -->
 
-  <h2>Moje rezervacije  {{ulogovan.ime}} {{ulogovan.prezime}}. </h2>
+  <h2>Moje rezervacije  {{vm.ulogovanKorisnik.ime}} {{vm.ulogovanKorisnik.prezime}}. </h2>
 
-</section>
+  <section class="rezervacija shadow">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51FN%2B-6mMtL._SX351_BO1,204,203,200_.jpg" />
+    <aside class="rezervacija-info">
+      <h3> Guns n Roses </h3>
+      <i> 5. Jun 2018. </i>
+      <strong> Arena Novi Sad </strong>
+      <p>
+        Opis dogadjaja...
+      </p>
+      <strong> Tip ulaznice - 4950,00 din. </strong>
+    </aside>
+  </section>
+  <section class="rezervacija shadow">
+    <img src="http://musically.com/wp-content/uploads/2016/10/Iron-Maiden-2017-tour.jpg" />
+    <aside class="rezervacija-info">
+      <h3> Iron Maiden </h3>
+      <i> 15. Mart 2018. </i>
+      <strong> Arena Novi Sad </strong>
+      <p>
+        Opis dogadjaja...
+      </p>
+      <strong> Tip ulaznice - 6950,00 din. </strong>
+    </aside>
+  </section>
+
+</article>
+
+<style type="text/css">
+article.rezervacije {
+  /*margin: 1em;*/
+  padding: 1em;
+  background-color: #fff;
+  text-align: left;
+}
+article.rezervacije h2 {
+  text-align: center;
+}
+section.rezervacija {
+  background-color: #444;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 1em;
+}
+section.rezervacija img {
+  width: 20%;
+  height: 180px;
+  margin: 1em;
+  /*padding: 1em;*/
+  text-align: left;
+  position: relative;
+  object-fit: contain;
+}
+aside.rezervacija-info {
+  display: inline-block;
+  position: relative;
+  top: -4em;
+  width: 50%;
+  height: 100%;
+  /*margin: 1em;*/
+  padding: 1em;
+  text-align: left;
+  /*background-color: #fff;*/
+}
+
+</style>
