@@ -57,17 +57,17 @@
 		<aside ng-if="vm.eventDetailView" class="event-list-item">
 			<img class="event-list-item-img2" src="{{vm.event.poster}}" />
 			<h1>{{vm.event.artist}}</h1>
-			<h5>{{vm.event.date}} &nbsp &nbsp{{vm.event.location.city}}</h5>
+			<h5>{{vm.event.date}} &nbsp; &nbsp; {{vm.event.location.venue}}, {{vm.event.location.city}}</h5>
 			<section class="buy-ticket">
-				<select class="background-color-red">
-					<option>Parter</option>
-					<option>Tribina</option>
-					<option>Fan pit</option>
+				<select class="background-color-red" 
+				ng-options="tickets.type for tickets in vm.event.tickets"
+				ng-model="selectedOption">
+					<!-- <option ng-repeat="ticket in vm.event.tickets">{{ticket.type}}</option> -->
 				</select>
 				<label>kolicina:</label>
-				<input type="number" min="0" ng-model="brojKomada" placeholder="kolicina">
+				<input type="number" min="0" max="{{selectedOption.inStock}}" ng-model="brojKomada" placeholder="kolicina">
 				<label>ukupna cena:</label>
-				<input type="number" ng-model="500*brojKomada" readonly="readonly"> din.
+				<input type="number" ng-model="selectedOption.price*brojKomada" readonly="readonly"> din.
 				<button class="buy background-color-red">Kupi kartu</button><br><br>
 			</section>
 			<div class="event-description event-description-shadow">
