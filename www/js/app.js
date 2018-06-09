@@ -172,6 +172,37 @@ app.controller('MainCtrl', function($scope, $http) {
     vm.init();
     vm.getUsers();
 
+
+    // // Google Maps
+    // function initMap(){
+    //   // Address position
+    //   var position = {lat:45.245467,lng:19.831919};
+    //   // Map options
+    //   var options = {
+    //     zoom:18,
+    //     center: position
+    //   };
+                
+    //   // New map
+    //   var map = new google.maps.Map(document.getElementById('map'), options);
+                
+    //   // Add marker
+    //   var marker = new google.maps.Marker({
+    //     position: position,
+    //     map:map
+    //   });
+                
+    //   // Info window
+    //   var infoWindow = new google.maps.InfoWindow({
+    //     content: '<h3>Zdrava hrana "Nenin ducan"</h3><br><img class="nav-logo-img senka" src="images/logo.png" /><br>'
+    //   });
+                
+    //   marker.addListener('click', function(){
+    //     infoWindow.open(map, marker);
+    //   });
+                
+    // }
+
 });
 
 

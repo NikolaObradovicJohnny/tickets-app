@@ -5,8 +5,8 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 25,
+		"lng": 80
 	},
 	"photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRz5Lk95lylTy2gHKiFV49wN4GJHW3c9tMRUt-L1h4mpCmi4X_",
 	"band_photo": "https://www.billboard.com/files/media/dave-grohl-guns-n-roses-live-cr-Katarina-Benzova-2017-billboard-1548.jpg",
@@ -42,8 +42,8 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 30,
+		"lng": 50
 	},
 	"photo": "https://vignette.wikia.nocookie.net/starpolar/images/b/b2/Metallica_logo_wallpaper.jpg/revision/latest?cb=20150224011904",
 	"band_photo": "http://www.metalsucks.net/wp-content/uploads/2017/08/metallicaheavymontreal2017.jpg",
@@ -79,8 +79,8 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 40,
+		"lng": 40
 	},
 	"photo": "http://www.amaliearena.com/assets/img/iron_640x360-bcbca896aa.jpg",
 	"band_photo": "http://assets.blabbermouth.net/media/ironmaiden2015bandwlogo_638.jpg",
@@ -91,7 +91,23 @@
 		"photo4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj3hSQt86Mh9mMht2QRQDFj2v22Xf6gzYGe5Y_gky30hPqdGCZqA"
 	},
 	"description": "From their origin in London's East End to the most glamorous stages in the world, Iron Maiden have been one of the world's greatest rock bands for over twenty years, selling in excess of 50 million records. Studio Albums: Iron Maiden (1980) Killers (1981) The Number of the Beast (1982) Piece of Mind (1983) Powerslave (1984) Somewhere in Time (1986) Seventh Son of a Seventh Son (1988) No Prayer for the Dying (1990) Fear of the Dark (1992) The X Factor (1995) Virtual XI (1998) Brave New World (2000) Dance of Death (2003) A Matter of Life and Death (2006) The Final Frontier (2010) The Book Of Souls (2015)",
-	"inStock": 100000,
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 4950,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 4200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 6500,
+			"inStock":10000
+		}
+	],
 	"poster": "http://musically.com/wp-content/uploads/2016/10/Iron-Maiden-2017-tour.jpg"
 	},
 	{
@@ -100,8 +116,8 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 15,
+		"lng": 15
 	},
 	"photo": "http://novipazaronline.org/wp-content/uploads/2016/12/Black-Sabbath-Large-Wallpaper.jpg",
 	"band_photo": "http://balkanrock.com/wp-content/uploads/black_sabbath.jpg",
@@ -112,7 +128,23 @@
 		"photo4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkkSxE_WWoBuDF_7xD6OnIMqa1oSVbGPyhjGC4Eqm5799usfp0"
 	},
 	"description": "After Black Sabbath had lost their drummer, Bill Ward, they started to audition a number of drummers and found all of them unsuitable. Supposedly someone gave a demo tape with Vinny Appice to Tony Iommi who listened the tape and called to Ronnie James Dio immediately and recommended Vinny Appice to him. Appice was auditioned and invited to join the band.Black Sabbath and Blue Oyster Cult decided to do a tour together in the USA in the fall of 1980. Both of the bands played as the main band of the shows, Black Sabbath on every second night and Blue Oyster Cult on every other night. At least some of the shows included other bands too. The tour was called as 'Black & Blue' US tour.On October 9th, 1980 at Mecca Arena in Milwaukee the Black & Blue show produced a riot. The riot started when Black Sabbath ended their show in the middle when someone threw a beer bottle in Geezer Butler's face. Eight policemen, several fans and Geezer Butler were injured and 160 people were arrested in the riot, which required police forces from all over the city before it was under control. The Mecca Arena was destroyed rather badly.When the Heaven And Hell tour was finished, Black Sabbath went to record a new album called Mob Rules to Record Plant studios in Los Angeles, USA, with producer Martin Birch again.In 1982 Dio left Black Sabbath with the drummer Vinny Appice. After the split there was a huge amount of press releases and interviews from Black Sabbath where both Geezer and Tony Iommi accused Ronnie and Vinny for sneaking into the studios during nights to mix bass and especially guitar volume lower and to mix up vocals and drums on the Live Evil album. Later, rather quietly, Tony Iommi said that he was wrong with his accusations. Live Evil was produced by Tony Iommi and Geezer Butler.Ronnie and Vinny didn't like those accusations and decided to leave together and form Dio (the band). This happened in October 1982. There were other reasons behind the split too, like the way how Tony and Geezer left the concert venues right after the show without meeting the fans backstage etc. Tony and Geezer mixed the rest of the Live Evil album themselves.The reason for Iommi's beliefs was the fact that he and Geezer couldn't ever appear at the studios at the same time with Ronnie and Vinny. So either of those parties didn't know too well what the others were doing.",
-	"inStock": 100000,
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 4950,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 4200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 6500,
+			"inStock":10000
+		}
+	],
 	"poster": "https://i.pinimg.com/736x/bd/8a/18/bd8a18fda9691f6500ecb6cac2866bda--tour-posters-band-posters.jpg"
 	},
 	{
@@ -121,13 +153,35 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 15,
+		"lng": 15
 	},
 	"photo": "https://i2.wp.com/www.prog-sphere.com/wp-content/uploads/2017/04/LZ.png?resize=620%2C400",
 	"band_photo": "https://cdn.images.express.co.uk/img/dynamic/35/590x/led-zeppelin-50th-reunion-907791.jpg",
-	"description": "",
-	"inStock": 100000,
+	"gallery": [
+		"http://bravewords.com/medias-static/images/news/2017/5A3C0F26-led-zeppelin-to-celebrate-50th-anniversary-with-official-illustrated-book-coming-in-2018-image.jpg",
+		"https://tonedeaf.com.au/wp-content/uploads/2017/10/led-zeppelin-robert-plant.jpg",
+		"https://tonedeaf.com.au/wp-content/uploads/2017/11/zeppelin.jpg",
+		"https://d3j0sq6zklqdqq.cloudfront.net/photos/2018/01/13/53-46450-photo-of-robert-plant-and-led-zeppelin-1515885525.jpg"
+	],
+	"description": "Led Zeppelin were an English rock band formed in London in 1968. The group consisted of guitarist Jimmy Page, singer Robert Plant, bassist and keyboardist John Paul Jones, and drummer John Bonham. The band's heavy, guitar-driven sound has led them to be cited as one of the progenitors of heavy metal. Their style drew from a wide variety of influences, including blues, psychedelia, and folk music.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 4950,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 4200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 6500,
+			"inStock":10000
+		}
+	],
 	"poster": "https://render.fineartamerica.com/images/rendered/default/poster/8/10/break/images-medium-5/led-zeppelin-fht-designs.jpg"
 	},
 	{
@@ -136,13 +190,35 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 25,
+		"lng": 25
 	},
 	"photo": "https://ih0.redbubble.net/image.292163651.2732/flat,800x800,075,f-c,0,75,800,331.jpg",
 	"band_photo": "http://assets.blabbermouth.net/media/whitesnakeband2015new_638.jpg",
-	"description": "",
-	"inStock": 100000,
+	"gallery": [
+		"http://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/141/2017/12/07100009/tmp73707c15-9889-4173-867c-6c2bb3c5d5af.jpg",
+		"https://media.gettyimages.com/photos/david-coverdale-and-reb-beach-of-british-hard-rock-group-whitesnake-picture-id452139484?k=6&m=452139484&s=612x612&w=0&h=UlQh2Y08EwSYog87gMl7LljFBVnhHqrYkvr7fspCwEg=",
+		"http://photos.metrotimes.com/wp-content/uploads/2015/07/800_4428.jpg",
+		"https://i.pinimg.com/originals/b4/5e/7d/b45e7de8f1ecb332cc2d0fe4a1b20312.jpg"
+	],
+	"description": "Whitesnake are an English hard rock band formed in 1978 by David Coverdale, after his departure from his previous band Deep Purple. Their early material has been compared by critics to the blues rock of Deep Purple, but they slowly began moving toward a more commercially accessible rock style.[2] By the turn of the decade, the band's commercial fortunes changed and they released a string of UK top 10 albums, Ready an' Willing (1980), Come an' Get It (1981), Saints & Sinners (1982) and Slide It In (1984), the last of which was their first to chart in the US and is certified 2x platinum.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
+		}
+	],
 	"poster": "https://i.pinimg.com/736x/28/52/86/2852863eb55e0840daa849026bdc4e3b--gig-poster-poster-art.jpg"
 	},
 	{
@@ -151,13 +227,35 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 25,
+		"lng": 35
 	},
 	"photo": "http://logonoid.com/images/deep-purple-logo.jpg",
 	"band_photo": "https://www.graspop.be/images/bands/detail/2017deeppurpleweb2.jpg",
-	"description": "",
-	"inStock": 100000,
+	"gallery": [
+		"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Deep_Purple_at_Wacken_Open_Air_2013_27.jpg/1200px-Deep_Purple_at_Wacken_Open_Air_2013_27.jpg",
+		"http://rockandrollgarage.com/wp-content/uploads/2017/12/Ian-Gillan-interview-2.jpg",
+		"https://www.guitarworld.com/.image/t_share/MTU0MTMxMDE4MjU1NzA1ODUx/dxucoqpx4aad3bu.jpg",
+		"http://cdn-x.drummerworld.com/drummerworld/ianpaice546kjt.jpg"
+	],
+	"description": "Deep Purple have had several line-up changes and an eight-year hiatus (1976–1984). The 1968–1976 line-ups are commonly labelled Mark I, II, III and IV.[13][14] Their second and most commercially successful line-up consisted of Ian Gillan (vocals), Jon Lord (keyboards, backing vocals), Roger Glover (bass), Ian Paice (drums), and Ritchie Blackmore (guitar). This line-up was active from 1969 to 1973, and was revived from 1984 to 1989, and again from 1992 to 1993. The band achieved more modest success in the intervening periods between 1968 and 1969 with the line-up including Rod Evans (lead vocals) and Nick Simper (bass, backing vocals), between 1974 and 1976 (Tommy Bolin replacing Blackmore in 1975) with the line-up including David Coverdale (lead vocals) and Glenn Hughes (bass, vocals), and between 1989 and 1992 with the line-up including Joe Lynn Turner (vocals). The band's line-up (currently including Ian Gillan, and guitarist Steve Morse from 1994) has been much more stable in recent years, although keyboardist Jon Lord's retirement from the band in 2002 (being succeeded by Don Airey) left Ian Paice as the only original Deep Purple member still in the band.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
+		}
+	],
 	"poster": "https://i.ebayimg.com/images/i/261536832082-0-1/s-l1000.jpg"
 	},
 	{
@@ -166,11 +264,17 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 42,
+		"lng": 15
 	},
-	"photo": "https://images.sk-static.com/images/media/img/col3/20151104-125442-245962.jpg",
-	"band_photo": "https://images.sk-static.com/images/media/img/col3/20151104-125442-245962.jpg",
+	"photo": "https://scontent-atl3-1.cdninstagram.com/vp/1ad4b81deb1156ed3808f97ffaf4aaf4/5B93C4D0/t51.2885-15/e35/22710935_139466556680012_29714215841300480_n.jpg",
+	"band_photo": "http://assets.blabbermouth.net/media/rainbow2018pressphoto_638.jpg",
+	"gallery": [
+		"https://www.soyuz.ru/public/uploads/files/3/7063873/201705311118066c1929fc79.jpg",
+		"https://www.soyuz.ru/public/uploads/files/3/7105737/2017072411094053f7fcccc7.jpg",
+		"http://suwalkiblues.com/wp-content/uploads/2017/04/g523.jpg",
+		"http://www.thehighwaystar.com/wp/wp-content/uploads/2009/10/dsc_5562.jpg"
+	],
 	"description": "",
 	"inStock": 100000,
 	"poster": "https://images.sk-static.com/images/media/img/col3/20151104-125442-245962.jpg"
@@ -181,8 +285,8 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 13,
+		"lng": 4
 	},
 	"photo": "http://s3.amazonaws.com/quietus_production/images/articles/23095/Van-Halen-Deluxe-Cover_1504182152_crop_550x384.jpg",
 	"band_photo": "https://i.pinimg.com/236x/56/85/bb/5685bb1fc199446131321495fc24923c--van-halen--eddie-van-halen.jpg",
@@ -196,8 +300,8 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 5,
+		"lng": 5
 	},
 	"photo": "https://i.pinimg.com/originals/60/42/82/604282bdf1ec87eac566411fe288d275.jpg",
 	"band_photo": "https://www.billboard.com/files/media/the-eagles-grammy-awards-2016-billboard-1548.jpg",
@@ -211,13 +315,39 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 42,
+		"lng": 42
 	},
 	"photo": "https://hipservice.com/wp-content/uploads/2015/07/aerosmith.jpg",
-	"band_photo": "https://vignette.wikia.nocookie.net/uncyclopedia/images/a/ac/Aerosmith_promophoto.jpg/revision/latest?cb=20070318185509",
-	"description": "",
-	"inStock": 100000,
+	"band_photo": "https://i.scdn.co/image/fcb6ff3b92a1412e225c69277744e33105af963f",
+	"gallery": [
+		"https://vignette.wikia.nocookie.net/uncyclopedia/images/a/ac/Aerosmith_promophoto.jpg/revision/latest?cb=20070318185509",
+		"http://tvdigitalecuador.com/wp-content/uploads/2017/08/aerosmith.jpg",
+		"http://ultimateclassicrock.com/files/2017/11/aerosmith.jpg",
+		"https://fortunedotcom.files.wordpress.com/2015/10/gettyimages-490352376-crop.jpg",
+		"https://www.billboard.com/files/styles/article_main_image/public/media/aerosmith-performance-2016-billboard-1548.jpg",
+		"http://www.wallofsoundgallery.com/immagini_prodotti/arch/2890.jpg",
+		"http://busforfun.com/picture/Immagine/849/original/0da920abd5afd9365cc4888dd62d3d6f.jpg",
+		"https://img.wennermedia.com/article-leads-horizontal/joe-perry-solo-album-3ac5796a-bec2-457c-9ea7-3eea49245708.jpg"
+	],
+	"description": "Aerosmith is an American rock band, sometimes referred to as 'the Bad Boys from Boston' and 'America's Greatest Rock and Roll Band'. Their style, which is rooted in blues-based hard rock,[10][11] has come to also incorporate elements of pop,[12] heavy metal,[10] and rhythm and blues,[13] and has inspired many subsequent rock artists.[14] They were formed in Boston, Massachusetts, in 1970.[15] Guitarist Joe Perry and bassist Tom Hamilton, originally in a band together called the Jam Band, met up with vocalist/pianist/harmonicist Steven Tyler, drummer Joey Kramer, and guitarist Ray Tabano, and formed Aerosmith. In 1971, Tabano was replaced by Brad Whitford, and the band began developing a following in Boston. They were signed to Columbia Records in 1972, and released a string of gold and platinum albums, beginning with their 1973 eponymous debut album, followed by Get Your Wings in 1974. In 1975, the band broke into the mainstream with the album Toys in the Attic, and their 1976 follow-up Rocks cemented their status as hard rock superstars.[17] Two additional albums followed in 1977 and 1979. Their first five albums have since attained multi-platinum status. Throughout the 1970s, the band toured extensively and charted a dozen Hot 100 singles. By the end of the decade, they were among the most popular hard rock bands in the world and developed a loyal following of fans, often referred to as the 'Blue Army'. However, drug addiction and internal conflict took their toll on the band, which led to the departures of Perry and Whitford in 1979 and 1981, respectively; they were replaced by Jimmy Crespo and Rick Dufay.[11] The band did not fare well between 1980 and 1984, releasing the album Rock in a Hard Place, which was certified gold but failed to match their previous successes.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 4950,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 4200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 6500,
+			"inStock":10000
+		}
+	],
 	"poster": "http://cdn.metallus.it/wp-content/uploads/2011/02/aerosmithband2010.jpg"
 	},
 	{
@@ -226,8 +356,8 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 24,
+		"lng": 42
 	},
 	"photo": "http://drugdrazic.com/wp-content/uploads/2013/06/%D0%90%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC-%D0%A1%D0%BB%D0%B5%D1%98%D0%B5%D1%80.jpg",
 	"band_photo":"http://drugdrazic.com/wp-content/uploads/2013/06/%D0%90%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC-%D0%A1%D0%BB%D0%B5%D1%98%D0%B5%D1%80.jpg",
@@ -241,8 +371,8 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 42,
+		"lng": 33
 	},
 	"photo": "http://www.buffalochip.com/portals/0/2016/Bands/SBC-LYN-SKYNYRD-465x376.jpg",
 	"band_photo":"http://www.buffalochip.com/portals/0/2016/Bands/SBC-LYN-SKYNYRD-465x376.jpg",
@@ -256,8 +386,8 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 31,
+		"lng": 21
 	},
 	"photo": "http://rockradio.rs/wp-content/uploads/2017/08/1469549207912b88a840fceaf4c2702a34bfc5b83b.jpg",
 	"band_photo": "https://imagescdn.juno.co.uk/full/CS614473-01A-BIG.jpg",
@@ -271,8 +401,8 @@
 	"location": {
 		"city": "Novi Sad",
 		"venue": "Quarter",
-		"lat": "",
-		"lon": ""
+		"lat": 40,
+		"lng": 73
 	},
 	"photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT7T4l8tm6LT1yB9H9jTA6og3qeCql_fHr120Hu4LCVO1DgdGu4A",
 	"band_photo":"https://derekflynn.files.wordpress.com/2012/06/soundgarden_001.jpg?resize=640%2C481",
