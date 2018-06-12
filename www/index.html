@@ -6,6 +6,7 @@
 		<link rel="icon" type="image/icon" href="logo.png" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="application/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBp2zRSeegCKFERACVFBM30GHQLmtYrVE4&sensor=false"></script>
 	</head>
 	<body ng-app="TicketsApp" ng-controller="MainCtrl as vm">
 		<section class="login-section" ng-if="vm.loginForm">
@@ -85,42 +86,10 @@
 				
 			</div>
 			<h3> Location </h3>
-			<section id="map"></section>
-			<script type="text/javascript">
-				// Google Maps
-			    function initMap(){
-			      // Address position
-			      var position = {lat:45.275437,lng:19.831929};
-			      // var position = {lat:vm.event.location.lat,lng: vm.event.location.lng};
-			      // Map options
-			      var options = {
-			        zoom:15,
-			        center: position
-			      };
-			                
-			      // New map
-			      var map = new google.maps.Map(document.getElementById('map'), options);
-			                
-			      // Add marker
-			      var marker = new google.maps.Marker({
-			        position: position,
-			        map:map
-			      });
-			                
-			      // Info window
-			      var infoWindow = new google.maps.InfoWindow({
-			        content: '<h3>Arena</h3><br><img class="nav-logo-img senka" src="images/logo.png" /><br>'
-			      });
-			                
-			      marker.addListener('click', function(){
-			        infoWindow.open(map, marker);
-			      });
-			                
-			    }
-			</script>
-			<script async defer
-	        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBp2zRSeegCKFERACVFBM30GHQLmtYrVE4&callback=initMap">
-	        </script>
+			<my-maps id="map" lat="{{vm.event.location.lat}}" lng="{{vm.event.location.lng}}"></my-maps>
+			<!-- <script async defer
+	        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBp2zRSeegCKFERACVFBM30GHQLmtYrVE4&sensor=false">
+	        </script> -->
 
 		</aside>
 		
