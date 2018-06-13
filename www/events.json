@@ -276,7 +276,23 @@
 		"http://www.thehighwaystar.com/wp/wp-content/uploads/2009/10/dsc_5562.jpg"
 	],
 	"description": "",
-	"inStock": 100000,
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
+		}
+	],
 	"poster": "https://images.sk-static.com/images/media/img/col3/20151104-125442-245962.jpg"
 	},
 	{
@@ -289,9 +305,31 @@
 		"lng": 4
 	},
 	"photo": "http://s3.amazonaws.com/quietus_production/images/articles/23095/Van-Halen-Deluxe-Cover_1504182152_crop_550x384.jpg",
-	"band_photo": "https://i.pinimg.com/236x/56/85/bb/5685bb1fc199446131321495fc24923c--van-halen--eddie-van-halen.jpg",
-	"description": "",
-	"inStock": 100000,
+	"band_photo": "http://eklektx.com/wp-content/uploads/van-halen-bw-2.jpg",
+	"gallery": [
+		"https://glidemagazine.com/wp-content/uploads/legacy/vanhalen2.jpg",
+		"https://i.pinimg.com/736x/01/2d/5c/012d5c2654b274d9ddf9052b55432724--van-halen--eddie-van-halen.jpg",
+		"http://images4.fanpop.com/image/photos/19500000/evh-eddie-van-halen-19518939-1280-800.png",
+		"https://www.morrisonhotelgallery.com/images/medium/Van%20Halen%20-%20Eddie%20Van%20Halen%20and%20David%20Lee%20Roth%20-%201979.jpg"
+	],
+	"description": "Van Halen is an American hard rock band formed in Pasadena, California, in 1972. From 1974 until 1985, the band consisted of guitarist Eddie Van Halen, vocalist David Lee Roth, drummer Alex Van Halen, and bassist Michael Anthony.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
+		}
+	],
 	"poster": "https://i.pinimg.com/236x/56/85/bb/5685bb1fc199446131321495fc24923c--van-halen--eddie-van-halen.jpg"
 	},
 	{
@@ -306,7 +344,13 @@
 	"photo": "https://i.pinimg.com/originals/60/42/82/604282bdf1ec87eac566411fe288d275.jpg",
 	"band_photo": "https://www.billboard.com/files/media/the-eagles-grammy-awards-2016-billboard-1548.jpg",
 	"description": "",
-	"inStock": 100000,
+	"tickets":[
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
 	"poster": "https://images-na.ssl-images-amazon.com/images/I/81PIvGCTb4L._SL1500_.jpg"
 	},
 	{
@@ -362,11 +406,17 @@
 	"photo": "http://drugdrazic.com/wp-content/uploads/2013/06/%D0%90%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC-%D0%A1%D0%BB%D0%B5%D1%98%D0%B5%D1%80.jpg",
 	"band_photo":"http://drugdrazic.com/wp-content/uploads/2013/06/%D0%90%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC-%D0%A1%D0%BB%D0%B5%D1%98%D0%B5%D1%80.jpg",
 	"description": "",
-	"inStock": 100000,
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		}
+	],
 	"poster": "http://drugdrazic.com/wp-content/uploads/2013/06/%D0%90%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC-%D0%A1%D0%BB%D0%B5%D1%98%D0%B5%D1%80.jpg"
 	},
 	{
-	"date": "12.2.2018.",
+	"date": "11.10.2018.",
 	"artist": "Lynyrd Skynyrd",
 	"location": {
 		"city": "Novi Sad",
@@ -376,8 +426,20 @@
 	},
 	"photo": "http://www.buffalochip.com/portals/0/2016/Bands/SBC-LYN-SKYNYRD-465x376.jpg",
 	"band_photo":"http://www.buffalochip.com/portals/0/2016/Bands/SBC-LYN-SKYNYRD-465x376.jpg",
-	"description": "",
-	"inStock": 100000,
+	"gallery": [
+		"https://cdn.localspins.com/wp-content/uploads/2017/02/04075050/lynyrd_skynyrd_20_monroe_2.4.17-960x640.jpg",
+		"https://c8.alamy.com/comp/HNC4W0/pompano-beach-fl-usa-10th-feb-2017-lynyrd-skynyrd-performs-at-the-HNC4W0.jpg",
+		"http://ksassets.timeincuk.net/wp/uploads/sites/55/2014/12/2014LynyrdSkynyrd_Getty_458882406_211214-920x639.jpg",
+		"https://cdn.localspins.com/wp-content/uploads/2017/02/04074901/lynyrd_skynyrd_20_monroe_2.4.17-13-960x640.jpg"
+	],
+	"description": "Lynyrd Skynyrd is an American rock band best known for having popularized the Southern rock genre during the 1970s. Originally formed in 1964 as My Backyard in Jacksonville, Florida, the band was also known by names such as The Noble Five and One Percent, before finally deciding on 'Lynyrd Skynyrd' in 1969. The band gained worldwide recognition for its live performances and signature songs 'Sweet Home Alabama' and 'Free Bird'. At the peak of their success, band members Ronnie Van Zant and Steve Gaines, and backup singer Cassie Gaines, died in an airplane crash in 1977, putting an abrupt end to the 1970s era of the band.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		}
+	],
 	"poster": "http://i1.wp.com/www.12voltnews.com/wp-content/uploads/2018/02/logo-250_lynrd-skynyrd.jpg?fit=225%2C312"
 	},
 	{
@@ -390,9 +452,31 @@
 		"lng": 21
 	},
 	"photo": "http://rockradio.rs/wp-content/uploads/2017/08/1469549207912b88a840fceaf4c2702a34bfc5b83b.jpg",
-	"band_photo": "https://imagescdn.juno.co.uk/full/CS614473-01A-BIG.jpg",
-	"description": "",
-	"inStock": 100000,
+	"band_photo": "https://downloads-pearljam-com.s3.amazonaws.com/img/giftcard-image/1469549207912b88a840fceaf4c2702a34bfc5b83b.jpg",
+	"gallery": [
+		"https://img.wennermedia.com/article-leads-horizontal/rs-240163-GettyImages-528408538.jpg",
+		"http://ksassets.timeincuk.net/wp/uploads/sites/55/2017/04/GettyImages-666022010-Pearl-Jam-Hall-of-fame-920x598.jpg",
+		"http://exclaim.ca/images/pearljam3.jpg",
+		"http://www.waaf.com/sites/g/files/giy751/f/styles/delta__775x515/public/Photos/Pearl%20Jam%20Rock%20Hall.jpg?itok=r_sNjErv&c=d056d963207b9617c1e2884d21f32eb8"
+	],
+	"description": "Pearl Jam is an American rock band formed in Seattle, Washington, in 1990. Since its inception, the band's line-up has consisted of Eddie Vedder (lead vocals), Mike McCready (lead guitar), Stone Gossard (rhythm guitar) and Jeff Ament (bass). The band's fifth member is drummer Matt Cameron (also of Soundgarden), who has been with the band since 1998. Boom Gaspar (piano) has also been a session/touring member with the band since 2002. Drummers Dave Krusen, Matt Chamberlain, Dave Abbruzzese and Jack Irons are former members of the band.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
+		}
+	],
 	"poster": "http://grungeposters.com/wp-content/uploads/2018/01/Pearl-Jam-poster-2014-Milwaukee-October10-20.jpg"
 	},
 	{
@@ -406,8 +490,483 @@
 	},
 	"photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT7T4l8tm6LT1yB9H9jTA6og3qeCql_fHr120Hu4LCVO1DgdGu4A",
 	"band_photo":"https://derekflynn.files.wordpress.com/2012/06/soundgarden_001.jpg?resize=640%2C481",
-	"description": "",
-	"inStock": 100000,
+	"gallery": [
+		"https://s3.amazonaws.com/images.charitybuzz.com/images/291563/original.jpeg?1492094070",
+		"https://images1.westword.com/imager/u/745xauto/9074984/6931422.0.jpg",
+		"http://www.soundgardenworld.com/wp-content/uploads/2015/08/live2.jpg",
+		"http://duastorres.com.br/wp-content/uploads/2016/08/Chris-Cornell.jpg",
+		"https://pmcvariety.files.wordpress.com/2017/05/chris-cornell-dead.jpg?w=1000&h=563&crop=1",
+		"https://tonedeaf.com.au/wp-content/uploads/2018/04/20142F112F182Fc62Fsoundgarden.a484b.jpg",
+		"http://www.waaf.com/sites/g/files/giy751/f/GettyImages-Soundgarden_2_4.jpg",
+		"https://i.pinimg.com/originals/2a/2a/62/2a2a62b3f83be5cf9f2b8bfe496ffce6.jpg"
+	],
+	"description": "Soundgarden is an American rock band formed in Seattle, Washington, in 1984 by singer and rhythm guitarist Chris Cornell, lead guitarist Kim Thayil, and bassist Hiro Yamamoto. Matt Cameron became the band's full-time drummer in 1986, while bassist Ben Shepherd became a permanent replacement for Yamamoto in 1990. The band dissolved in 1997 and re-formed in 2010. Cornell remained in Soundgarden until his death in May 2017, putting the band's future in doubt and leaving Thayil as the only remaining original member of the band. Soundgarden was one of the seminal creators of grunge, a style of alternative rock that developed in Seattle, and was one of a number of grunge bands signed to the record label Sub Pop. Soundgarden was the first grunge band to sign to a major label (A&M Records in 1989), though the band did not achieve commercial success until they popularized the genre in the early 1990s with Seattle contemporaries Alice in Chains, Pearl Jam, and Nirvana. Soundgarden achieved its biggest success with the 1994 album Superunknown, which debuted at number one on the Billboard 200 and yielded the Grammy Award-winning singles 'Black Hole Sun' and 'Spoonman'. In 1997, the band broke up due to internal strife over its creative direction. After more than a decade of working on projects and other bands, Soundgarden reunited in 2010, and Republic Records released their sixth studio album, King Animal two years later. As of 2012, Soundgarden sold more than 10.5 million records in the United States,[1] and an estimated 25 million worldwide.[2] VH1 ranked Soundgarden at number 14 in their special 100 Greatest Artists of Hard Rock.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
+		}
+	],
 	"poster": "https://posteritati.com/posters/000/000/040/367/soundgarden-down-on-the-upside-md-web.jpg"
+	},
+	{
+	"date": "12.2.2018.",
+	"artist": "The Pretty Reckless",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Quarter",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "http://theprettyreckless.com/wp-content/uploads/2016/07/splash-logo-1024x621.jpg",
+	"band_photo":"http://webcdn.harmonixmusic.com/media/blog/featured/Pretty-Reckless-Andrew-Lipovsky-0680-pr-site.jpg",
+	"gallery": [
+		"https://upload.wikimedia.org/wikipedia/commons/9/9c/The_the_pretty_reckless_band.jpg",
+		"http://ksassets.timeincuk.net/wp/uploads/sites/55/2016/07/2014ThePrettyReckless_Getty478230043130314-1.jpg",
+		"http://www.bluefm.com.ar/wp-content/uploads/2016/09/the-pretty-reckless.jpg",
+		"http://ksassets.timeincuk.net/wp/uploads/sites/55/2016/10/GettyImages-109783904_taylor_momsen_pretty_reckless_tour_630.jpg",
+		"http://image.en.yibada.com/data/images/full/155768/taylor-momsen-of-the-pretty-reckless-performs-on-february-11-2011-in-los-angeles-california.jpg?w=650&l=50&t=40",
+		"https://newnoisemagazine.com/wp-content/uploads/2016/10/alan_snodgrass_the_pretty_reckless_20161022_038_72dpi.jpg",
+		"https://upload.wikimedia.org/wikipedia/commons/0/03/The_Pretty_Reckless_Rockfest_2017_3.jpg",
+		"https://farm9.staticflickr.com/8798/17768323989_a7e8575b88_b.jpg"
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
+		}
+	],
+	"poster": "https://ih0.redbubble.net/image.378729521.0822/flat,800x800,070,f.u2.jpg"
+	},
+	{
+	"date": "10.7.2018.",
+	"artist": "Scorpions",
+	"location": {
+		"city": "Beograd",
+		"venue": "Arena",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "http://logosolusa.com/wp-content/uploads/parser/Scorpions-Logo-1.jpg",
+	"band_photo":"https://1.bp.blogspot.com/-mxklm-ZcR8w/WdrCdTkMxoI/AAAAAAAAsGs/AveEmGeu9xsZR2mE1EuIXq_M-NZa_Wy_gCLcBGAs/s1600/Scorpions.promo.03-17.jpg",
+	"gallery": [
+		"http://budapesttimes-archiv.bzt.hu/wp-content/uploads/2016/01/scorpions_kep_1.jpg",
+		"https://c8.alamy.com/comp/BEDAGW/klaus-meine-singer-of-the-german-rock-band-scorpions-live-at-the-spirit-BEDAGW.jpg",
+		"http://www.chadleephotography.com/wp-content/gallery/scorpions-2003-chicago/scorpions-2-28-2003-chicago-1010120.jpg",
+		"https://c8.alamy.com/comp/F372WG/englewood-colorado-usa-29th-sep-2015-scorpions-guitarist-rudolf-schenker-F372WG.jpg",
+		"https://www.pollstar.com/Image/Photos/2017/10/116b050a-97af-4d38-8a7b-475d2094e299-boillrosemontscorp.jpg",
+		"http://www2.pictures.zimbio.com/gi/Klaus+Meine+Matthias+Jabs+Scorpions+Cinderella+_M4n_eNuLvOl.jpg",
+		"https://upload.wikimedia.org/wikipedia/commons/d/d5/Scorpions_-_01.jpg",
+		"https://c8.alamy.com/comp/BED9ME/matthias-jabs-guitarist-of-the-german-rock-band-scorpions-live-at-BED9ME.jpg"
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 3200,
+			"inStock":10000
+		}
+	],
+	"poster": "https://files.geometria.ru/pics/original/060/647/60647644.jpg"
+	},
+	{
+	"date": "21.8.2018.",
+	"artist": "Billy Idol",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Arena",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "http://billyidol.net/billyidol.jpg",
+	"band_photo":"http://billyidol.net/billyidol.jpg",
+	"gallery": [
+		"https://www.montreuxjazzfestival.com/sites/default/files/styles/program_1298x769/public/artists/billy_idol_web_0.jpg?itok=DFn_ozec",
+		"https://i.ytimg.com/vi/tWPKIjKcoEA/maxresdefault.jpg",
+		"https://c8.alamy.com/comp/F3BEB8/steve-stevens-und-billy-idol-live-at-the-austin-city-linits-music-F3BEB8.jpg",
+		"https://img.radio-canada.ca/2012/10/23/1250x703/121023_qz0o8_aetd_billy_idol_sn1250.jpg",
+		"https://www.repstatic.it/content/nazionale/img/2015/11/30/120237561-74c71d02-30c0-49f4-b4ff-083d54a97b56.jpg",
+		"http://www.theaureview.com/sites/default/files/Billy%20Idol%2010.jpg",
+		"https://www.billboard.com/files/styles/article_main_image/public/media/billy-idol-fall-2014-650.jpg",
+		"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Billy_IDOL_2012.JPG/1200px-Billy_IDOL_2012.JPG"
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "http://216.70.116.101/wp-content/uploads/2014/08/dancing_with_myself_1Dmini.png"
+	},
+	{
+	"date": "12.2.2018.",
+	"artist": "Hollywood Vampires",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "https://cdn7.bigcommerce.com/s-fbddb/images/stencil/700x900/products/820/1268/hollywood-vampires-alice-cooper-aerosmith-supergroup-rock-roll-band-group-logo-debut-album-cover-artwork-mens-black-t-shirt-close-up__15166.1473789767.jpg?c=2",
+	"band_photo":"https://www.montreuxjazzfestival.com/sites/default/files/styles/program_1298x769/public/artists/hollywood_vampires_web_2.jpg?itok=gGFAALH2",
+	"gallery": [
+		"https://www.futuro.cl/wp-content/uploads/2018/02/HOLLYWOODVAMPIRES2.jpg",
+		"http://www.wikimetal.com.br/wp-content/uploads/2016/08/hollywood-vampires.jpg",
+		"https://www.thescottishsun.co.uk/wp-content/uploads/sites/2/2018/02/nintchdbpict000239994181.jpg?strip=all&amp;quality=100&amp;w=1200&amp;h=800&amp;crop=1",
+		"https://s3.amazonaws.com/busites_www/hollywoodvampirescom/content/articles/hollywood_vampires_banner_600x600px_01_0.jpg"
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "https://s3.amazonaws.com/busites_www/hollywoodvampirescom/content/articles/hollywoodvampires_poland_localised_artwork.jpeg"
+	},
+	{
+	"date": "12.2.2018.",
+	"artist": "Greta Van Fleet",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Quarter",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "https://ih1.redbubble.net/image.454880978.5867/raf,750x1000,075,t,101010:01c5ca27c6.jpg",
+	"band_photo":"https://s3-us-west-1.amazonaws.com/prohbtd/uploads/public/5a9/9fc/6a8/5a99fc6a82d7a285875737.jpg",
+	"gallery": [
+		"https://www.billboard.com/files/styles/article_main_image/public/media/Greta-Van-Fleet-2017-cr-Michael-Lavine-billboard-1548.jpg",
+		"http://files.greatermedia.com/uploads/sites/24/2018/04/945974306-e1523908760208.jpg",
+		"http://ultimateclassicrock.com/files/2018/05/Greta-Van-Fleet-Christopher-Polk.jpg?w=980&q=75",
+		"https://img.wennermedia.com/480-width/greta-van-fleet-interview-rolling-stone-2018-d36e18b5-07a0-4d5a-aee3-217ae4e778c4.jpg",
+		"http://shockwavemagazine.com/wp-content/uploads/2017/12/20171228-GretaVanFleet-EricDiRezze-5623new-leadimg.jpg",
+		"http://ultimateclassicrock.com/files/2018/03/GettyImages-927349918.jpg",
+		"http://momentsinsound.com/wp-content/uploads/2017/07/7-1-17-Greta-Van-Fleet-33.jpg",
+		"https://upload.wikimedia.org/wikipedia/commons/6/6d/Greta_Van_Fleet.jpg"
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "https://78.media.tumblr.com/5d5132fea498aff4eb8503ebfe5a1631/tumblr_p2v5aik87R1rmctjho1_500.jpg"
+	},
+	{
+	"date": "8.9.2018.",
+	"artist": "Jared James Nichols",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo":"https://i.ytimg.com/vi/DNEgE1AcBF0/maxresdefault.jpg",
+	"gallery": [
+		"http://www.theguitarmagazine.com/wp-content/uploads/2015/09/jjn_john_bull_2_hr.jpg",
+		"https://i.ytimg.com/vi/VSukP3_oH_w/maxresdefault.jpg",
+		"http://www.lancashiretelegraph.co.uk/resources/images/6491197.jpg?display=1&htype=0&type=responsive-gallery",
+		"https://i.ytimg.com/vi/xXkNCyY5rJQ/maxresdefault.jpg"
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "https://bilbaoenvivo.files.wordpress.com/2015/05/bev-jared-james-nichols-0-cartel-gira-espac3b1ola.jpg"
+	},
+	{
+	"date": "21.7.2018.",
+	"artist": "Winery Dogs",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "https://i.ytimg.com/vi/u6FaVE9dG98/maxresdefault.jpg",
+	"band_photo": "http://www.thewinerydogs.com/images/winerydogs_photo.jpg",
+	"gallery": [
+		"https://www.ultimate-guitar.com/static/article/news/9/74869_0_wide_ver1525294172.jpg@642",
+		"https://i.ytimg.com/vi/EXsXFeQOQ-Y/maxresdefault.jpg",
+		"https://www.saladacult.com.br/wp-content/uploads/2015/08/1280x720.jpg",
+		"http://loudandproudrecords.s3.amazonaws.com/wp-content/uploads/2015/10/TWD-charts-640x470.jpg",
+		"http://revistakuadro.com/wp-content/uploads/2016/05/The-Winery-Dogs.jpg",
+		"https://pbs.twimg.com/media/CiRFoDkWkAETbEV.jpg",
+		"http://s3.amazonaws.com/loudandproudrecords/wp-content/uploads/2013/05/1383134_10151660581992611_1165252467_n.jpg",
+		"http://loudandproudrecords.s3.amazonaws.com/wp-content/uploads/2013/05/1377557_10151660582142611_621918396_n.jpg"
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "https://pbs.twimg.com/media/CiRFoDuWwAEeD7r.jpg"
+	},
+	{
+	"date": "19.7.2018.",
+	"artist": "Dead Daisies",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "https://3.bp.blogspot.com/-dcoUpWzQvys/WqK8nYYUSXI/AAAAAAAAFTg/ID7nldrx4WICgN26_LWiiLT__RfdTHzSwCLcBGAs/s1600/thumbnail_tdd%2Blogo.jpg",
+	"band_photo": "https://www.steelhousefestival.com/media/11625/2018-web-slider-daisies.jpg",
+	"gallery": [
+		"https://www.nationalrockreview.com/wp-content/uploads/2018/04/thedeaddaisies-thegarage-glasgow_uk-20180408-adamkennedy-cover.jpg",
+		"http://imagens.ailhadometal.com/2017/07/A-Ilha-do-Metal-The-Dead-Daises-e-Richie-Kotzen-by-Bullino-Inc-016.jpg",
+		"https://www.nationalrockreview.com/wp-content/gallery/thedeaddaisies-thegarage-glasgow_uk-20180408-adamkennedy/thedeaddaisies-thegarage-glasgow_uk-20180408-adamkennedy-05.jpg",
+		"http://www.prensa-latina.cu/images/2017/diciembre/18/Banda-Dead-Daisies.jpg",
+		"https://www.nationalrockreview.com/wp-content/gallery/thedeaddaisies-thegarage-glasgow_uk-20180408-adamkennedy/thedeaddaisies-thegarage-glasgow_uk-20180408-adamkennedy-11.jpg",
+		"http://www.metal-revolution.com/wp-content/uploads/2018/04/the-dead-daisies-copenhagen-pumpehuset-2018-017.jpg",
+		"https://www.nationalrockreview.com/wp-content/gallery/thedeaddaisies-thegarage-glasgow_uk-20180408-adamkennedy/thedeaddaisies-thegarage-glasgow_uk-20180408-adamkennedy-06.jpg",
+		"http://365bristol.com/userfiles/images/daisies%20int.JPG"
+	],
+	"description": "The Dead Daisies are an Australian-American rock band and musical collective formed in 2013 in Sydney, Australia by David Lowy. Musicians that have joined Lowy for the project have included Richard Fortus (Guns N' Roses), Jon Stevens (INXS, Noiseworks), Darryl Jones[1] (The Rolling Stones), Dizzy Reed (Guns N' Roses), Marco Mendoza (Thin Lizzy), Charley Drayton (The Cult, Divinyls, Cold Chisel), John Tempesta (The Cult), Brian Tichy (ex Whitesnake, Sass Jordan), Frank Ferrer (Guns N' Roses), Alex Carapetis (Nine Inch Nails), Clayton Doley, Jackie Barnes (Jimmy Barnes), John Corabi (The Scream, Mötley Crüe), Alan Mansfield, Doug Aldrich (Bad Moon Rising, Whitesnake), and Deen Castronovo.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "https://wizard-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/TDD_Poster_00-316x447.jpg"
+	},
+	{
+	"date": "25.7.2018.",
+	"artist": "Sons of Apollo",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "https://i.ytimg.com/vi/TLVWkqnN3Ck/maxresdefault.jpg",
+	"band_photo": "http://www.notreble.com/buzz/wp-content/uploads/2018/02/Sons-of-Apollo-1-1500x991.jpg",
+	"gallery": [
+		"https://www.mainemusicnews.com/wp-content/uploads/ngg_featured/DSC_9447-600x350.jpg",
+		"https://editorial01.shutterstock.com/wm-preview-450/9372625f/19d0c8d1/sons-of-apollo-in-concert-at-the-magic-city-casino-miami-9372625f-450.jpg",
+		"https://ignitemusicmag.files.wordpress.com/2018/02/son-of-apollo-plaza-live-2-11-18-7810-e1518819279646.jpg?w=620",
+		"https://koreaguitar1.files.wordpress.com/2017/09/band-photo-sons-of-apollo.jpg?w=901"
+	],
+	"description": "Sons of Apollo is an American progressive metal supergroup formed in 2017 and composed of drummer Mike Portnoy, bassist Billy Sheehan, keyboardist Derek Sherinian, vocalist Jeff Scott Soto, and guitarist Ron 'Bumblefoot' Thal.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "https://musicglue-user-app-p-2-p.s3.amazonaws.com/originals/b2b73ad0-f9f9-0135-a15f-6280b8679f2b"
+	},
+	{
+	"date": "25.7.2018.",
+	"artist": "Rival Sons",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "https://i.pinimg.com/originals/07/e3/d9/07e3d9121c84ff3ab29a2ad1bd5827a7.jpg",
+	"band_photo": "http://www.timtronckoe.com/sites/default/files/portfolio/Rival%20Sons%202015.jpg",
+	"gallery": [
+		"http://getreadytorock.me.uk/blog/wp-content/uploads/2014/12/141211_rsons19.jpg",
+		"https://www.guitar-muse.com/wp-content/uploads/2011/08/rival-sons.jpg",
+		"https://ridefestival.com/wp-content/uploads/2013/05/975998_10151451244576262_1830529501_o.jpg",
+		"https://glidemagazine.com/wp-content/uploads/2016/08/17-RIVAL-SONS-8_25_16_213-v3-bw-glide.jpg",
+		"https://pbs.twimg.com/profile_images/905346094284120064/dnaB41kl_400x400.jpg",
+		"http://mariekorner.com/wp-content/uploads/2012/10/006aRivalSons.jpg",
+		"https://glidemagazine.com/wp-content/uploads/2016/01/rivalsons33-578x289.jpg",
+		"https://mm.aiircdn.com/5/595f52ee68c74.jpg"
+	],
+	"description": "Rival Sons is an American rock band from Long Beach, California. Formed in 2009, they have released five albums and one EP. They originate from the reminants of a previous band of guitarist Scott Holiday. The band is known for extensive touring and their notable album release Pressure & Time. They are signed to Low Country Sound an imprint of Elektra run by Dave Cobb.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "http://metalmouth.net/media/2014/06/rs_uk_dec14.jpg"
+	},
+	{
+	"date": "25.7.2018.",
+	"artist": "Winger",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "https://i.pinimg.com/originals/f2/94/2b/f2942b297a2e537d73e6e35e1546011c.jpg",
+	"band_photo": "https://myglobalmind.com/wp-content/uploads/2014/05/kip-winger-interview-pic-2.jpg",
+	"gallery": [
+		"http://royalflushmagazine.com/wp-content/uploads/2017/12/Kip-Winger-Reb-Beach-e1513207421635-650x446.jpg",
+		"http://www.decibelgeek.com/wordpress/wp-content/grand-media/image/Winger20.jpg",
+		"http://farm5.static.flickr.com/4055/4298933522_124984ddab_o.jpg",
+		"http://www.decibelgeek.com/wordpress/wp-content/grand-media/image/Winger15.jpg"
+	],
+	"description": "Winger is an American rock band that has combined elements of glam metal and progressive metal. Formed in New York City, Winger gained popularity during the late 1980s and early 1990s. The band's two platinum albums, Winger and In the Heart of the Young, along with charting singles 'Seventeen', 'Headed for a Heartbreak' and 'Miles Away', put the band on the top of the charts by the early 1990s. In 1990, the band was nominated for an American Music Award for 'Best New Heavy Metal Band'. As the music scene changed in the early to mid-1990s due to the popularity of grunge, the band faded after their third release Pull.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "https://images-na.ssl-images-amazon.com/images/I/51abWXY0gEL.jpg"
+	},
+	{
+	"date": "25.7.2018.",
+	"artist": "Yngwie Malmsteen",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "https://www.ultimate-guitar.com/static/article/news/7/65237_0_wide_ver1502733582.jpg@642",
+	"band_photo": "https://i.ytimg.com/vi/0gV7sT7gzMY/maxresdefault.jpg",
+	"gallery": [
+		"https://i.ytimg.com/vi/bHHKgL1FwFs/maxresdefault.jpg",
+		"https://www.morrisonhotelgallery.com/images/big/MHG-YngwieMalmsteen.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/B1dRmX2tm-S._SL1000_.png",
+		"https://media2.fdncms.com/gambit/imager/u/original/4885403/hc-yngwie-malmsteen-infinity-hall-hartford-20170510.jpeg"
+	],
+	"description": "Yngwie Johan Malmsteen (born Lars Johan Yngve Lannerbäck; 30 June 1963) is a Swedish guitarist and bandleader. Malmsteen first became known in the 1980s for his neoclassical metal playing style in heavy metal, and has released 20 studio albums in a career spanning almost 40 years. In 2009, Time magazine rated Malmsteen as among the 10 greatest electric guitar players of all time.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "https://img.rnudah.com/images/24/2420099757.jpg"
+	},
+	{
+	"date": "25.7.2018.",
+	"artist": "Steve Vai",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "https://stmed.net/sites/default/files/steve-vai-wallpapers-30566-6551251.jpg",
+	"band_photo": "https://www.vai.com/wp-content/uploads/2016/06/Vai.com-MPPAW-Album-Banner.jpg",
+	"gallery": [
+		"https://www.ultimate-guitar.com/static/article/news/9/74569_0_wide_ver1524679560.jpg@642",
+		"https://rocknvivo.com/wp-content/uploads/2013/09/stevevai-2013.jpg",
+		"https://www.ultimate-guitar.com/static/article/news/5/71455_0_wide_ver1520607758.jpg@642",
+		"https://cdn-images-1.medium.com/max/1600/1*Eqfzwm-wqMep31sy1YtmOQ.jpeg"
+	],
+	"description": "Steven Siro Vai (/vaɪ/; born June 6, 1960) is an American guitarist, composer, singer, songwriter, and producer. He was voted the '10th Greatest Guitarist' by Guitar World magazine, and has sold over 15 million records. A three-time Grammy Award winner and fifteen-time nominee,[2] Vai started his music career in 1978 at the age of 18 as a transcriptionist for Frank Zappa, and joined his band from 1980 to 1983. He embarked on a solo career in 1983 and has released eight solo albums to date. He has recorded and toured with Alcatrazz, David Lee Roth, Whitesnake, as well as having recorded with artists such as Mary J. Blige, Spinal Tap, and Ozzy Osbourne. Additionally, Vai has toured with live-only acts G3, Zappa Plays Zappa, the Experience Hendrix tour, as well as headlining international tours. Vai has been described as a 'highly individualistic player' and part of a generation of 'heavy rock and metal virtuosi who came to the fore in the 1980s'. The launch of the Ibanez JEM guitar developed and co-designed by Vai was described as the 'exact moment the entire guitar landscape was reshaped'. He also designed the first commercially produced seven-string guitar, the Ibanez Universe, which became popular among bands in various genres the 1990s, including nu metal, death metal, and progressive metal. He released his first solo album Flex-Able in 1984, while his most successful release, Passion and Warfare (1990), was described as 'the richest and best hard rock guitar-virtuoso album of the '80s.'",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "http://assets.blabbermouth.net/media/stevevaieurope2012.jpg"
 	}
 ]
