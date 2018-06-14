@@ -10,10 +10,10 @@
 		<script type="application/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBp2zRSeegCKFERACVFBM30GHQLmtYrVE4&sensor=false"></script>
 	</head>
 	<body ng-app="TicketsApp" ng-controller="MainCtrl as vm">
-		<section class="login-section" ng-if="vm.loginForm">
+		<section class="login-section" ng-if="vm.loginForm" key-enter="vm.login()" key-down="vm.login()" >
 			<i class="fas fa-times-circle" ng-click="vm.loginForm=false"></i>
 			<h1>Login</h1>
-			<input type="text" name="username" placeholder="Username" ng-model="vm.username" />
+			<input type="text" name="username" placeholder="Username" ng-model="vm.username"  />
 			<input type="password" name="password" placeholder="Password" ng-model="vm.password" />
 			<button class="login background-color-red" ng-click="vm.login()">Login</button>
 			<hr/>
@@ -113,6 +113,7 @@
 	    <script src="js/app.js"></script>
 		<script src="js/lightbox.min.js"></script>
 		<script src="js/lightbox.js"></script>
+		<script src="js/direktive/key-enter.js"</script>
 		
 		<script>
 		var slideIndex = 1;
