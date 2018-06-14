@@ -1,6 +1,6 @@
 body {
     font-family: Arial;
-	background: url('images/pozadina-627x452.jpg');
+	background: url('image/pozadina-627x452.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
     background-attachment: fixed;
@@ -248,7 +248,7 @@ header img {
 }
 
 main {
-	background-color: #FFFFFF;
+	background-color: #333;
 	text-align: center;
 	align-content: center;
 	margin-top: 1em;
@@ -261,7 +261,7 @@ article.event-list-item {
 	margin: 1em;
 	padding: 1em;
 	border-radius: 1em;
-	background-color: #333;
+	background-color: #555;
 }
 aside.event-list-item{
 	display: block;
@@ -321,6 +321,7 @@ section.buy-ticket select, section.buy-ticket input {
 	/*border-radius: 1em;*/
 	border: 1px solid grey;
 	/*cursor: pointer;*/
+	border-radius: 1em;
 }
 section.buy-ticket select,section.buy-ticket button {
 	color: #fff;
@@ -350,7 +351,14 @@ img.gallery-img-size{
 	cursor: pointer;
 	object-fit: cover;
 }
-img.gallery-img-size:hover {opacity: 0.7;}
+img.gallery-img-size:hover {
+	transform: scale(1) rotate(1deg);
+	opacity: 2;
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+img.gallery-opacity:hover {
+	
+}
 
 img.gallery-img-full {
 	width: 100%;
