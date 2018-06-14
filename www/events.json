@@ -1118,6 +1118,11 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
 	"poster": "https://m.media-amazon.com/images/M/MV5BYTY3MzE4NDgtNTQ1Yi00YTNjLTk4NzctZWI2YmZmNDc3OTliXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY317_CR33,0,214,317_AL_.jpg"
@@ -1151,6 +1156,11 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
 	"poster": "https://www.dietrecords.org/images/stories/virtuemart/product/posterflag.png"
@@ -1183,6 +1193,11 @@
 		{
 			"type": "Tribine",
 			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
 			"inStock":10000
 		}
 	],
@@ -1221,6 +1236,11 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
 	"poster": "https://data.whicdn.com/images/96431019/large.jpg"
@@ -1236,14 +1256,18 @@
 		"lng": 73
 	},
 	"photo": "",
-	"band_photo": "",
+	"band_photo": "https://yt3.ggpht.com/a-/ACSszfFXA5gyH87VHEEavUpNlSH42PgkDDLEl3AaaA=s900-mo-c-c0xffffffff-rj-k-no",
 	"gallery": [
-		"",
-		"",
-		"",
-		""
+		"https://steemitimages.com/0x0/http://www.overdrive.ie/wp-content/uploads/2017/02/alterbridge.jpg",
+		"https://www.festivalsherpa.com/wp-content/uploads/2017/07/Alter-Bridge.jpg",
+		"https://glidemagazine.com/wp-content/uploads/2014/05/alterbridgenew.gif",
+		"https://i0.wp.com/screamermagazine.com/wp-content/uploads/2017/02/IMG_7363.jpg",
+		"http://www.fullmetalrock.com/ab2014ft4.jpg",
+		"https://upload.metalrage.com/1-f7efec9e-AlterBridge-_004.jpg",
+		"https://i.guim.co.uk/img/media/3c23b3d9ee16ad7d80ce5b42a810e0db08e35c97/0_202_3000_1800/master/3000.jpg?w=1200&h=630&q=55&auto=format&usm=12&fit=crop&crop=faces%2Centropy&bm=normal&ba=bottom%2Cleft&blend64=aHR0cHM6Ly91cGxvYWRzLmd1aW0uY28udWsvMjAxOC8wMS8zMS90d2l0dGVyX2RlZmF1bHQucG5n&s=f2e7badac85f02d8f3573b5f1b3a8401",
+		"https://img00.deviantart.net/7b57/i/2011/301/5/4/alter_bridge_12_by_frtosi-d4e6lky.jpg"
 	],
-	"description": "",
+	"description": "Fittingly, on their fifth full-length album, The Last Hero, hard rock juggernaut Alter Bridge pursue a level of excellence inspired by timeless heroism. Making the record became something of a personal quest for the quartet—Myles Kennedy [vocals, guitar], Mark Tremonti [guitar, vocals], Brian Marshall [bass], and Scott Phillips [drums]. In 2013, the band reached an elevated creative and critical milestone with Fortress. It bowed at #12 on the Billboard Top 200, moving over 30,000 copies first-week and earning unanimous tastemaker praise. The record garnered perfect scores from Total Guitar and KERRANG! as well as acclaim from Billboard, The Guardian, Loudwire, Ultimate Guitar, and many more. In between sold out tours in Europe and North America, the guys appeared on VH1 and graced the cover of Classic Rock Magazine who labeled Fortress, “The best thing they’ve ever done,” while Eddie Trunk called it, “A top 10 album of the last 10 years.” When it came time to write new music, the musicians collectively raised the bar yet again.",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -1254,9 +1278,14 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://i.pinimg.com/736x/22/b1/d5/22b1d5619f9dc1e483f5cad4d49146c0--la-band-halestorm.jpg"
 	},
 	{
 	"_id": 34,
@@ -1269,14 +1298,14 @@
 		"lng": 73
 	},
 	"photo": "",
-	"band_photo": "",
+	"band_photo": "https://lastfm-img2.akamaized.net/i/u/ar0/a29e526d8fbe4124d37ef0b346d6090e.jpg",
 	"gallery": [
-		"",
-		"",
-		"",
-		""
+		"http://ksassets.timeincuk.net/wp/uploads/sites/55/2017/07/GettyImages-518993198-920x584.jpg",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOBmUlrDM76kZDw5xss9aFcxR_ot-UGddUPpAIR_Eet5D2C3BxDw",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3B8R9G3U-ncEJUh5Thn_mlSOjZXBwlOAsAANAeg-T0kxrdBTS",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAR-6nKo6tAXXnOfZpJdEe0lAJpgSncpQfMwyRrdMDPRAG4iEy"
 	],
-	"description": "",
+	"description": "Over 50 million albums sold worldwide. Nine Grammy Award nominations. Twelve JUNO Awards. Two American Music Awards. Six Billboard Music Awards. World Music Award Recipient for World's Best-Selling Rock Artist. Twelve consecutive sold-out international tours, playing to well over eight million diehard and adoring fans. Not to mention the distinguished achievement of being the best-selling foreign act of the 2000s - second only to the Beatles. Just some of such staggering statistics can only belong to Rock's reigning giant's of this century's musical landscape: Nickelback.",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -1287,9 +1316,14 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://i.pinimg.com/236x/b6/a8/9c/b6a89cb503d984a6d5f6f8c460515e54--drummers.jpg"
 	},
 	{
 	"_id": 35,
@@ -1302,14 +1336,14 @@
 		"lng": 73
 	},
 	"photo": "",
-	"band_photo": "",
+	"band_photo": "https://static.spin.com/files/130523-alice-in-chains-640x426.jpg",
 	"gallery": [
-		"",
-		"",
-		"",
-		""
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkgA9afqcTetqL3TanyQgs-A78xKVEJgLbmN2mUJjSx_RGkMc6",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhhbnpi-3iRkzMC4EA1O4vHFSgihoVgZvwFw5KB36H5Iatd0RTw",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkVERbNmcLZYEJPBegNoYoGc_Kz3CAtT1J56VfwFCUZ2cYd3b4",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdCbYLEaSUi-nloiY7mUdeIeBbx0LOcJLXTsLPl-d7wzg_B9w"
 	],
-	"description": "",
+	"description": "In many ways, Alice in Chains was the definitive heavy metal band of the early '90s. Drawing equally from the heavy riffing of post-Van Halen metal and the gloomy strains of post-punk, the band developed a bleak, nihilistic sound that balanced grinding hard rock with subtly textured acoustic numbers. They were hard enough for metal fans, yet their dark subject matter and punky attack placed them among the front ranks of the Seattle-based grunge bands. While this dichotomy helped the group soar to multi-platinum status with their second album, ",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -1320,9 +1354,14 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://ih0.redbubble.net/image.450515225.0190/flat,800x800,070,f.u1.jpg"
 	},
 	{
 	"_id": 36,
@@ -1335,14 +1374,14 @@
 		"lng": 73
 	},
 	"photo": "",
-	"band_photo": "",
+	"band_photo": "http://kcmq.com/wp-content/uploads/2016/02/Alice-Cooper-Band.jpg",
 	"gallery": [
-		"",
-		"",
-		"",
-		""
+		"https://i.axs.com/2018/03/51594-image_5aa6c81ce931e.jpg",
+		"http://alicecoopercom.powweb.com/wordpress/wp-content/uploads/2013/10/wide_0006.jpg",
+		"https://gazettereview.com/wp-content/uploads/2016/10/what-happened-to-alice-cooper-e1476868134649.jpg",
+		"https://www.billboard.com/files/styles/1024x577/public/video/1125911414_1683095822001_2236129-_0.jpg"
 	],
-	"description": "",
+	"description": "In 1975, Alice Cooper joined forces with longtime collaborator and producer Bob Ezrin to record his first solo album Welcome to My Nightmare, a theatrical concept album about the nightmares of a young boy named Steven. Now, he’s followed Steven into adulthood and presents Welcome 2 My Nightmare, a new but familiar concept album about the fear, anxiety and disgust that haunt Alice Cooper’s dreams in an era of Facebook, Lady Gaga, Sketchers and Angry Birds.",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -1353,9 +1392,14 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://images.wolfgangsvault.com/alice-cooper/poster/memorabilia/RIJ880505-PO.jpg"
 	},
 	{
 	"_id": 37,
@@ -1368,14 +1412,14 @@
 		"lng": 73
 	},
 	"photo": "",
-	"band_photo": "",
+	"band_photo": "http://defleppard.primarywave.netdna-cdn.com/wp-content/uploads/2015/09/W5D1602ret-1024x1001.jpg",
 	"gallery": [
-		"",
-		"",
-		"",
-		""
+		"https://www.udiscovermusic.com/wp-content/uploads/2017/12/Def-Leppard-In-20-Songs-Facebook-web-optimised.jpg",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfvDzJuKah-u5LzX8FA3Gu9vO5TfQILccXuVv2FNVjY0c3BnYq",
+		"http://portalhenrycavillbr.com/wp-content/uploads/2017/09/hcfacts-9-defleppard-01.png",
+		"http://img.wennermedia.com/social/rs-209191-Def-Leppard-Press001.jpg"
 	],
-	"description": "",
+	"description": "With more than 65 million albums sold worldwide and two prestigious Diamond Awards in the USA, Def Leppard continue to be one of the most important forces in rock music. Over the course of their career the band has produced a series of classic groundbreaking albums that set the bar for generations of music fans and artists alike. The group’s spectacular live shows and arsenal of hits have become synonymous with their name, leading Def Leppard to be heralded as an institution in both the music and touring industry.",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -1386,9 +1430,14 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://images-na.ssl-images-amazon.com/images/I/517UAUw5dmL.jpg"
 	},
 	{
 	"_id": 38,
@@ -1401,14 +1450,14 @@
 		"lng": 73
 	},
 	"photo": "",
-	"band_photo": "",
+	"band_photo": "http://img.wennermedia.com/social/rs-241949-GettyImages-92705190.jpg",
 	"gallery": [
-		"",
-		"",
-		"",
-		""
+		"https://img.wennermedia.com/article-leads-horizontal/rs-164806-Motley-Crue_Tour_1060.jpg",
+		"https://img.wennermedia.com/article-leads-horizontal/rs-182012-455758042.jpg",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgD6PxI9XgojfrXbf6J0HPlBrYvr3njSjj0SHhXdbUD_uWcvpB",
+		"http://assets.blabbermouth.net/media/motleycruepressconference12_638.jpg"
 	],
-	"description": "",
+	"description": "Motley Crüe (formed 1981): Motley Crüe was originally founded by Nikki Sixx and Tommy Lee. The band has sold over 72 million albums around the world and all of the original band members contributed to their best-selling autobiography The Dirt.",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -1419,9 +1468,14 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://imgc.allpostersimages.com/img/posters/kii-arens-motley-crue_u-L-F8ICO60.jpg?src=gp&w=300&h=375"
 	},
 	{
 	"_id": 39,
@@ -1434,14 +1488,14 @@
 		"lng": 73
 	},
 	"photo": "",
-	"band_photo": "",
+	"band_photo": "https://progressivemusicplanet.files.wordpress.com/2016/04/104500.jpg?w=640",
 	"gallery": [
-		"",
-		"",
-		"",
-		""
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVExd0jvG5m249HG7dWE59c-pEqIhq5nCC1_7MnVdRttb-Wng8",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTagz1eFWVVz6jF2jTMyiSn7Jqb0svQiMa1qeN6VDCobau0uqrpA",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJnEiI4IMrIJ-S-035dAQBXBMGCtSGTcJhJW1UGYV6-krg02EA",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4gTmlY117RJaKPw9sfdGM4oZ_gpyUDDVxg1QHQ68S2bhxY4ELvg"
 	],
-	"description": "",
+	"description": "Dream Theater have steadily achieved a startlingly sublime synthesis of soaring and unmistakable melody, progressive instrumentation and aggressive heaviness unrivaled within hard rock music. The legacy established throughout their virtuosic career of astounding aesthetic alchemy has made their very moniker synonymous with the power of talent, ability and momentum when brilliantly forged together.",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -1452,9 +1506,14 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://i.ebayimg.com/images/g/XVYAAOSw9eVXUe-A/s-l300.jpg"
 	},
 	{
 	"_id": 40,
@@ -1467,14 +1526,14 @@
 		"lng": 73
 	},
 	"photo": "",
-	"band_photo": "",
+	"band_photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Heat_SoutPark_2014.jpg/1200px-Heat_SoutPark_2014.jpg",
 	"gallery": [
-		"",
-		"",
-		"",
-		""
+		"https://i.ytimg.com/vi/HGMNmmMSI_E/maxresdefault.jpg",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9r0sw1BhzzH4eg1IqmyJRa3qBd-1Qv3_JeIIxcXMe6aKwqYIOaw",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOST2byYHyLixYJdAyqVl-EfWDPnZDK3QSMHTinr0q3CT1gC1z",
+		"http://vancouverweekly.com/wp-content/uploads/2017/02/srb_group.jpg"
 	],
-	"description": "",
+	"description": "This Heat were an English experimental rock band, formed in early 1976 in Camberwell, London by multi-instrumentalists Charles Bullen (guitar, clarinet, viola, vocals, tapes), Charles Hayward (drums, keyboards, vocals, tapes) and Gareth Williams (keyboard, guitar, bass, vocals, tapes).",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -1485,9 +1544,14 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://i.pinimg.com/736x/0a/99/3b/0a993b1df0db0e7d6fc35552621ef813--band-posters-rock-posters.jpg"
 	},
 	{
 	"_id": 41,
@@ -1517,6 +1581,11 @@
 		{
 			"type": "Tribine",
 			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
 			"inStock":10000
 		}
 	],
@@ -1551,6 +1620,11 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
 	"poster": ""
@@ -1583,6 +1657,11 @@
 		{
 			"type": "Tribine",
 			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
 			"inStock":10000
 		}
 	],
@@ -1617,6 +1696,11 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
 	"poster": ""
@@ -1650,6 +1734,11 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
 	"poster": ""
@@ -1682,6 +1771,11 @@
 		{
 			"type": "Tribine",
 			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
 			"inStock":10000
 		}
 	],
@@ -2292,14 +2386,14 @@
 		"lng": 73
 	},
 	"photo": "",
-	"band_photo": "",
+	"band_photo": "http://www.metalinjection.net/wp-content/uploads/2015/12/megadeth-2016.jpg",
 	"gallery": [
-		"",
-		"",
-		"",
-		""
+		"https://www.wallpaperup.com/uploads/wallpapers/2012/12/16/25112/082804e3152729bd59f9a5e97e5f2fd2-700.jpg",
+		"https://i.pinimg.com/originals/86/9e/31/869e31c63778e9b76e2aaa4c0f134aab.jpg",
+		"https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Metalmania_2008_Megadeth_002.jpg/1200px-Metalmania_2008_Megadeth_002.jpg",
+		"https://media.gettyimages.com/photos/the-big-4-concert-at-yankee-stadium-anthrax-megadeth-slayer-and-the-picture-id149299159"
 	],
-	"description": "",
+	"description": "Megadeth is an American heavy metal band from Los Angeles, California, formed in 1983 with its roots in thrash metal, a genre that its founder, singer/songwriter and guitarist Dave Mustaine helped pioneer. The band has since released 14 studio albums.",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -2312,7 +2406,7 @@
 			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://cdn.shopify.com/s/files/1/0630/8509/products/flat0411md_large.jpeg?v=1473190463"
 	},
 	{
 	"_id": 66,
@@ -2345,7 +2439,7 @@
 			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://images-na.ssl-images-amazon.com/images/I/41oViFy-ueL.jpg"
 	},
 	{
 	"_id": 67,
@@ -2378,7 +2472,7 @@
 			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://ae01.alicdn.com/kf/HTB1Q6EcQFXXXXXDaXXXq6xXFXXXU/The-Ramones-Music-Class-Vintage-Retro-Canvas-Painting-Poster-DIY-Wall-Home-Bar-Posters-Home-Decor.jpg_640x640.jpg"
 	},
 	{
 	"_id": 68,
@@ -2411,7 +2505,7 @@
 			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://images.wolfgangsvault.com/prince-and-the-revolution/poster/memorabilia/ZZZ035957-PO.jpg"
 	},
 	{
 	"_id": 69,
@@ -2444,7 +2538,7 @@
 			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://images-na.ssl-images-amazon.com/images/I/51EkokUTouL._SY450_.jpg"
 	},
 	{
 	"_id": 70,
@@ -2477,7 +2571,7 @@
 			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/concert-poster-template-e532240c3d6125da9f8f45361a1dc6c7.jpg?ts=1505316954"
 	},
 	{
 	"_id": 71,
@@ -2510,7 +2604,7 @@
 			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://images.sk-static.com/images/media/img/col3/20160105-162558-610806.jpg"
 	},
 	{
 	"_id": 72,
@@ -2543,6 +2637,6 @@
 			"inStock":10000
 		}
 	],
-	"poster": ""
+	"poster": "https://i.pinimg.com/originals/e8/c8/0a/e8c80a646641611203ab7c40479c8e0c.jpg"
 	}
 ]
