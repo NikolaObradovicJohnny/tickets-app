@@ -283,7 +283,7 @@
 		"http://suwalkiblues.com/wp-content/uploads/2017/04/g523.jpg",
 		"http://www.thehighwaystar.com/wp/wp-content/uploads/2009/10/dsc_5562.jpg"
 	],
-	"description": "",
+	"description": "The brainchild of former Deep Purple guitarist Ritchie Blackmore, Rainbow quickly developed into one of the '70s most successful heavy metal bands behind charismatic frontman Ronnie James Dio. Together, the duo would produce a string of acclaimed albums which are still considered classics of the genre. But the group would change their musical approach numerous times following the singer's departure, eventually confusing and alienating much of their audience. Releasing eight albums during its decade-long run, the band finally came to an end when Blackmore departed to rejoin his old Deep Purple comrades in a full-fledged reunion in 1984. And while the impact of Rainbow's influence has faded with the intervening decades, theirs was a crucial chapter in the development of heavy metal and hard rock.",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -353,11 +353,27 @@
 	},
 	"photo": "https://i.pinimg.com/originals/60/42/82/604282bdf1ec87eac566411fe288d275.jpg",
 	"band_photo": "https://www.billboard.com/files/media/the-eagles-grammy-awards-2016-billboard-1548.jpg",
-	"description": "",
+	"gallery": [
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkMrLK_zsWI5Z7U0y6FbEl9ho3reTMdn1w92LNLXl7h26dJ2fV",
+		"https://images-na.ssl-images-amazon.com/images/I/91BnmUaYCUL._SX425_.jpg",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdADpVJEDc0iiiQkZQ0xZZBqYEH0CnF4H-5awmn2xD4OyJgDmwqA",
+		"https://i.ytimg.com/vi/rL3kgo9tZZo/maxresdefault.jpg"
+	],	
+	"description": "The Eagles are one of the most successful bands ever, selling over 150 million albums worldwide.  In fact, they are the best-selling American band ever.  They were inducted in to the Rock and Roll Hall of Fame in 1998. Along with Fleetwood Mac, they perfected the California pop sound of the 1970s.  I believe one of the main reasons for their tremendous success is due to the songwriting and singing talents of all of the band members.  So many of their songs had multiple writers and featured different band members taking turns singing lead and background vocals.  It’s no wonder that with that deep pool of talent they are ranked as one of the top 100 artists of all time by Rolling Stone Magazine.",
 	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
 		{
 			"type": "Tribine",
 			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
 			"inStock":10000
 		}
 	],
@@ -417,7 +433,13 @@
 	},
 	"photo": "http://drugdrazic.com/wp-content/uploads/2013/06/%D0%90%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC-%D0%A1%D0%BB%D0%B5%D1%98%D0%B5%D1%80.jpg",
 	"band_photo":"http://drugdrazic.com/wp-content/uploads/2013/06/%D0%90%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC-%D0%A1%D0%BB%D0%B5%D1%98%D0%B5%D1%80.jpg",
-	"description": "",
+	"gallery": [
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQblBnr06ei-Eoy9O1WiVIu4VxaWF88UX1eoOFf3mm6dcngTJY6",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROS2qqJ6laZOykwO8Ji8upWumdUFsUdbai1KnJPvcIsKTbck0Y",
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3j4ZF4UJ6-LmIOEXWvsyT9RV--9ojZtpVKsCUL1PgWaXsWRgtNQ",
+		"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Slayer_Performing_at_Mayhem_fest_2009.JPG/1200px-Slayer_Performing_at_Mayhem_fest_2009.JPG"
+	],
+	"description": "Slayer, the long-reigning titans of thrash, returns with Repentless, the band’s 11th studio album and its first album for Nuclear Blast. Produced by Terry Date, Repentless was written and recorded by guitarist Kerry King and singer/bassist Tom Araya at Henson Studios in Los Angeles, along with returning drummer Paul Bostaph and guitarist Gary Holt. Repentless is crushing and brutal, steadfastly refusing to cater to the mainstream.",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -450,6 +472,16 @@
 		{
 			"type": "Parter",
 			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
 			"inStock":10000
 		}
 	],
@@ -557,7 +589,7 @@
 		"https://upload.wikimedia.org/wikipedia/commons/0/03/The_Pretty_Reckless_Rockfest_2017_3.jpg",
 		"https://farm9.staticflickr.com/8798/17768323989_a7e8575b88_b.jpg"
 	],
-	"description": "",
+	"description": "Between 2013 and 2015, The Pretty Reckless traveled the globe touring in support of their second album, the raucous, roaring, Catholic guilt-inspired Going To Hell. A bruising blend of ferocious rock and roll and inky blues, the album debuted in the Top 5 on the Billboard Top 200 and spun off three No. 1 Mainstream Rock singles, “Fucked Up World,” “Follow Me Down” and 2014’s most successful song at the format, “Heaven Knows,” which spent a total of 18 weeks in the top spot. Going to Hell’s success meant strong live demand for the New York City band, which is anchored by its songwriters, singer-guitarist Taylor Momsen and guitarist Ben Phillips, who have been making music together in partnership for ten years, and rounded out by bassist Mark Damon and drummer Jamie Perkins. The Going To Hell Tour sent The Pretty Reckless off on four separate jaunts across North America and three trips to Europe. Their explosive shows earned them legions of new fans at home and overseas.",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -599,7 +631,7 @@
 		"https://upload.wikimedia.org/wikipedia/commons/d/d5/Scorpions_-_01.jpg",
 		"https://c8.alamy.com/comp/BED9ME/matthias-jabs-guitarist-of-the-german-rock-band-scorpions-live-at-BED9ME.jpg"
 	],
-	"description": "",
+	"description": "50 years have gone by since the days the juvenile Klaus Meine, Rudolf Schenker and Matthias Jabs wandered the streets of Hannover, which was just awakening from post war paralysis, with a barrow carrying their instruments and amplifiers. In these 50 years, they have become Germany’s, or rather Continental Europe’s most successful rock band, the living proof that not only VW, Mercedes or BMW are able to compete internationally, but classic rock music made in Germany as well. Countless bands, including the Smashing Pumpkins as well as Green Day, Korn, System Of A Down or Queensryche have covered songs by the Scorpions throughout the years. “Rock You Like A Hurricane” on its own was covered over 150 times by different musicians.",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -608,7 +640,12 @@
 		},
 		{
 			"type": "Tribine",
-			"price": 3200,
+			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
 			"inStock":10000
 		}
 	],
@@ -636,7 +673,7 @@
 		"https://www.billboard.com/files/styles/article_main_image/public/media/billy-idol-fall-2014-650.jpg",
 		"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Billy_IDOL_2012.JPG/1200px-Billy_IDOL_2012.JPG"
 	],
-	"description": "",
+	"description": "Born William Michael Albert Broad in Middlesex, England, in 1955, the first child of Bill and Joan Broad. When he was 2, his father moved the family to Long Island, New York, in pursuit of the American dream. They returned 4 years later (now with a baby sister, Jane) to Dorking. America made a big impression on Billy; he loved the big cars and rock...",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -646,6 +683,11 @@
 		{
 			"type": "Tribine",
 			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
 			"inStock":10000
 		}
 	],
@@ -669,7 +711,7 @@
 		"https://www.thescottishsun.co.uk/wp-content/uploads/sites/2/2018/02/nintchdbpict000239994181.jpg?strip=all&amp;quality=100&amp;w=1200&amp;h=800&amp;crop=1",
 		"https://s3.amazonaws.com/busites_www/hollywoodvampirescom/content/articles/hollywood_vampires_banner_600x600px_01_0.jpg"
 	],
-	"description": "",
+	"description": "In 1972, on the Sunset Strip at a club called the Rainbow Bar & Grill, the Hollywood Vampires were born in the upstairs bar. It was a gathering place for the rock stars living in or passing through L.A. “To join the club, one simply had to out drink all of the members,” says Alice Cooper, a founding member of the Vampires. “I would walk in on a typical night” Alice says, “and John Lennon, Harry Nilsson, Keith Moon—who would usually be in a costume like a maid or a chauffeur—Bernie Taupin, Jim Morrison and Mickey Dolenz would be there. The next week might be Bernie Taupin, Jimi Hendrix, Jim Morrison and Mickey Dolenz.”",
 	"tickets":[
 		{
 			"type": "Parter",
@@ -679,6 +721,11 @@
 		{
 			"type": "Tribine",
 			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
 			"inStock":10000
 		}
 	],
@@ -717,6 +764,11 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
 	"poster": "https://78.media.tumblr.com/5d5132fea498aff4eb8503ebfe5a1631/tumblr_p2v5aik87R1rmctjho1_500.jpg"
@@ -749,6 +801,11 @@
 		{
 			"type": "Tribine",
 			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
 			"inStock":10000
 		}
 	],
@@ -787,6 +844,11 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
 	"poster": "https://pbs.twimg.com/media/CiRFoDuWwAEeD7r.jpg"
@@ -824,6 +886,11 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
 	"poster": "https://wizard-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/TDD_Poster_00-316x447.jpg"
@@ -856,6 +923,11 @@
 		{
 			"type": "Tribine",
 			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
 			"inStock":10000
 		}
 	],
@@ -894,6 +966,11 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
 	"poster": "http://metalmouth.net/media/2014/06/rs_uk_dec14.jpg"
@@ -926,6 +1003,11 @@
 		{
 			"type": "Tribine",
 			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
 			"inStock":10000
 		}
 	],
@@ -960,6 +1042,11 @@
 			"type": "Tribine",
 			"price": 2200,
 			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
+			"inStock":10000
 		}
 	],
 	"poster": "https://img.rnudah.com/images/24/2420099757.jpg"
@@ -992,6 +1079,11 @@
 		{
 			"type": "Tribine",
 			"price": 2200,
+			"inStock":10000
+		},
+		{
+			"type": "VIP",
+			"price": 3650,
 			"inStock":10000
 		}
 	],

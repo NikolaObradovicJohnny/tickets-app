@@ -6,6 +6,7 @@
 		<link rel="icon" type="image/icon" href="logo.png" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css" />
 		<script type="application/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBp2zRSeegCKFERACVFBM30GHQLmtYrVE4&sensor=false"></script>
 	</head>
 	<body ng-app="TicketsApp" ng-controller="MainCtrl as vm">
@@ -80,7 +81,7 @@
 			<br>
 			<p class="gallery">Gallery</p>
 				<div class="gallery-img gallery-img-size">
-					<img ng-repeat="photo in vm.event.gallery" class="gallery-img-size" src="{{photo}}" />
+					<a ng-repeat="photo in vm.event.gallery" href="{{photo}}" data-lightbox="{{photo}}"><img class="gallery-img-size" src="{{photo}}" /></a>
 					<img class="gallery-img-full" src="{{vm.event.band_photo}}" />
 				</div>
 				
@@ -109,6 +110,7 @@
 		<script src="bower_components/angular-route/angular-route.js"></script>
 
 	    <script src="js/app.js"></script>
+		<script src="js/lightbox.min.js"></script>
 		
 		<script>
 		var slideIndex = 1;
