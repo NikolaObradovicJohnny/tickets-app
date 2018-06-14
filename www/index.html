@@ -70,7 +70,7 @@
 				<input type="number" min="0" max="{{selectedOption.inStock}}" ng-model="brojKomada" placeholder="kolicina">
 				<label>ukupna cena:</label>
 				<input type="number" ng-model="selectedOption.price*brojKomada" readonly="readonly"> din.
-				<button class="buy background-color-red">Kupi kartu</button><br><br>
+				<button class="buy background-color-red" ng-click="vm.buyTicket(selectedOption, brojKomada)">Kupi kartu</button><br><br>
 			</section>
 			<div class="event-description event-description-shadow">
 			Event details<br><br>
@@ -110,6 +110,7 @@
 		<script src="bower_components/angular-route/angular-route.js"></script>
 
 	    <script src="js/app.js"></script>
+	    <!-- <script src="js/rezervacije.controller.js"></script> -->
 		<script src="js/lightbox.min.js"></script>
 		
 		<script>

@@ -17,9 +17,9 @@ var app = angular.module('TicketsApp', ['ngRoute'])
       //   controllerAs: 'predmeti'
       // })
       .when('/rezervacije', {
-        templateUrl: 'views/rezervacije.html',
-        controller: 'RezervacijeCtrl',
-        controllerAs: 'rezervacije'
+        templateUrl: 'views/rezervacije.html'
+        // controller: 'RezervacijeCtrl',
+        // controllerAs: 'rezervacije'
       })
       // .when('/inbox', {
       //   templateUrl: 'views/inbox.html',
@@ -107,7 +107,8 @@ app.controller('MainCtrl', function($scope, $http) {
 						//password: user.password',
 						type: user.type,
 						name: user.name,
-            img: user.img
+            img: user.img,
+            rezervacije: user.rezervacije
 					};
 					return true;
 				}
@@ -172,10 +173,26 @@ app.controller('MainCtrl', function($scope, $http) {
     vm.init();
     vm.getUsers();
 
+
+    // buy ticket
+    vm.buyTicket = function(selectedOption, brojKomada) {
+      let karta = {
+        type: selectedOption.type,
+        price: selectedOption.price,
+        count: brojKomada,
+        totalPrice: selectedOption.price * brojKomada,
+        event: vm.event
+      };
+      console.log(karta);
+      selectedOption.inStock =- selectedOption.brojKomada; 
+      vm.ulogovanKorisnik.rezervacije.push(karta);
+      console.log(vm.ulogovanKorisnik.rezervacije);
+    };
+
 });
 
 
-app.controller('RezervacijeCtrl', function($scope, $http) {});
+// app.controller('RezervacijeCtrl', function($scope, $http) {});
 // Google Maps
 app.directive("myMaps", function(){
   return {

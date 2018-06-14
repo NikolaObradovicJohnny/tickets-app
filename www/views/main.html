@@ -1,7 +1,17 @@
-<article ng-repeat="event in vm.events | filter:searchText" class="event-list-item shadow pointer" ng-click="vm.eventDetailView = true; vm.event = event;">
+<article ng-repeat="event in vm.events | filter:searchText | limitTo: 8:(vm.currentPage*8)" class="event-list-item shadow pointer" ng-click="vm.eventDetailView = true; vm.event = event;">
   <img class="event-list-item-img" src="{{event.poster}}" />
   <!-- <img class="event-list-item-img" src="{{event.band_photo}}" /> -->
   <h3>{{event.artist}}</h3>
   <p>{{event.date}}</p>
   <button class="buy background-color-red">Kupi kartu</button>
 </article>
+<section class="pagination" ng-if="(vm.events|filter:searchText).length>8">
+  <a ng-click="vm.currentPage=0">&laquo;</a>
+  <a ng-click="vm.currentPage=page" 
+     ng-repeat="page in [0,1,2,3,4]"
+     ng-if="page < (vm.events|filter:searchText).length / 8">{{page+1}}</a>
+  <a ng-click="vm.currentPage=(vm.events|filter:searchText).length / 8 -1">&raquo;</a>
+</section>
+<p>
+	Nadjeno {{(vm.events|filter:searchText).length}} dogadjaja.
+</p>

@@ -38,7 +38,7 @@ body {
          -o-animation: fadein 1s; /* Opera < 12.1 */
             animation: fadein 1s;
 }
-.login-section .fa-times-circle {
+.login-section .fa-times-circle, .fa-times-circle {
 	float: right;
 	cursor: pointer;
 }
@@ -385,7 +385,21 @@ img.modal{
 
 
 
+.pagination {
+    text-align: center;
+}
 
+.pagination a {
+    color: black;
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.pagination a:hover {
+	background-color: #f00;
+	color: #fff;
+}
 
 .pointer {cursor:pointer}
 /* div.shadow{ */
