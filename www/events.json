@@ -1,5 +1,6 @@
 [
 	{
+	"_id": 1,
 	"date": "12.12.2018.",
 	"artist": "Guns n Roses",
 	"location": {
@@ -37,6 +38,7 @@
 	"poster": "https://images-na.ssl-images-amazon.com/images/I/51FN%2B-6mMtL._SX351_BO1,204,203,200_.jpg"
 	},
 	{
+	"_id": 2,
 	"date": "12.2.2018.",
 	"artist": "Metallica",
 	"location": {
@@ -74,6 +76,7 @@
 	"poster": "https://image.ceneostatic.pl/data/products/20075335/i-metallica-plakat.jpg"
 	},
 	{
+	"_id": 3,
 	"date": "12.2.2018.",
 	"artist": "Iron Maiden",
 	"location": {
@@ -111,6 +114,7 @@
 	"poster": "http://musically.com/wp-content/uploads/2016/10/Iron-Maiden-2017-tour.jpg"
 	},
 	{
+	"_id": 4,
 	"date": "12.2.2018.",
 	"artist": "Black Sabbath",
 	"location": {
@@ -148,6 +152,7 @@
 	"poster": "https://i.pinimg.com/736x/bd/8a/18/bd8a18fda9691f6500ecb6cac2866bda--tour-posters-band-posters.jpg"
 	},
 	{
+	"_id": 5,
 	"date": "12.2.2018.",
 	"artist": "Led Zeppelin",
 	"location": {
@@ -185,6 +190,7 @@
 	"poster": "https://render.fineartamerica.com/images/rendered/default/poster/8/10/break/images-medium-5/led-zeppelin-fht-designs.jpg"
 	},
 	{
+	"_id": 6,
 	"date": "12.2.2018.",
 	"artist": "Whitesnake",
 	"location": {
@@ -222,6 +228,7 @@
 	"poster": "https://i.pinimg.com/736x/28/52/86/2852863eb55e0840daa849026bdc4e3b--gig-poster-poster-art.jpg"
 	},
 	{
+	"_id": 7,
 	"date": "12.2.2018.",
 	"artist": "Deep Purple",
 	"location": {
@@ -259,6 +266,7 @@
 	"poster": "https://i.ebayimg.com/images/i/261536832082-0-1/s-l1000.jpg"
 	},
 	{
+	"_id": 8,
 	"date": "12.2.2018.",
 	"artist": "Rainbow",
 	"location": {
@@ -296,6 +304,7 @@
 	"poster": "https://images.sk-static.com/images/media/img/col3/20151104-125442-245962.jpg"
 	},
 	{
+	"_id": 9,
 	"date": "12.2.2018.",
 	"artist": "Van Halen",
 	"location": {
@@ -333,6 +342,7 @@
 	"poster": "https://i.pinimg.com/236x/56/85/bb/5685bb1fc199446131321495fc24923c--van-halen--eddie-van-halen.jpg"
 	},
 	{
+	"_id": 10,
 	"date": "12.2.2018.",
 	"artist": "Eagles",
 	"location": {
@@ -370,6 +380,7 @@
 	"poster": "https://images-na.ssl-images-amazon.com/images/I/81PIvGCTb4L._SL1500_.jpg"
 	},
 	{
+	"_id": 11,
 	"date": "12.2.2018.",
 	"artist": "Aerosmith",
 	"location": {
@@ -411,6 +422,7 @@
 	"poster": "http://cdn.metallus.it/wp-content/uploads/2011/02/aerosmithband2010.jpg"
 	},
 	{
+	"_id": 12,
 	"date": "12.2.2018.",
 	"artist": "Slayer",
 	"location": {
@@ -438,6 +450,7 @@
 	"poster": "http://drugdrazic.com/wp-content/uploads/2013/06/%D0%90%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC-%D0%A1%D0%BB%D0%B5%D1%98%D0%B5%D1%80.jpg"
 	},
 	{
+	"_id": 13,
 	"date": "11.10.2018.",
 	"artist": "Lynyrd Skynyrd",
 	"location": {
@@ -475,6 +488,7 @@
 	"poster": "http://i1.wp.com/www.12voltnews.com/wp-content/uploads/2018/02/logo-250_lynrd-skynyrd.jpg?fit=225%2C312"
 	},
 	{
+	"_id": 14,
 	"date": "12.2.2018.",
 	"artist": "Pearl Jam",
 	"location": {
@@ -512,6 +526,7 @@
 	"poster": "http://grungeposters.com/wp-content/uploads/2018/01/Pearl-Jam-poster-2014-Milwaukee-October10-20.jpg"
 	},
 	{
+	"_id": 15,
 	"date": "12.2.2018.",
 	"artist": "Soundgarden",
 	"location": {
@@ -553,6 +568,7 @@
 	"poster": "https://posteritati.com/posters/000/000/040/367/soundgarden-down-on-the-upside-md-web.jpg"
 	},
 	{
+	"_id": 16,
 	"date": "12.2.2018.",
 	"artist": "The Pretty Reckless",
 	"location": {
@@ -594,6 +610,7 @@
 	"poster": "https://ih0.redbubble.net/image.378729521.0822/flat,800x800,070,f.u2.jpg"
 	},
 	{
+	"_id": 17,
 	"date": "10.7.2018.",
 	"artist": "Scorpions",
 	"location": {
@@ -635,6 +652,7 @@
 	"poster": "https://files.geometria.ru/pics/original/060/647/60647644.jpg"
 	},
 	{
+	"_id": 18,
 	"date": "21.8.2018.",
 	"artist": "Billy Idol",
 	"location": {
@@ -676,6 +694,7 @@
 	"poster": "http://216.70.116.101/wp-content/uploads/2014/08/dancing_with_myself_1Dmini.png"
 	},
 	{
+	"_id": 19,
 	"date": "12.2.2018.",
 	"artist": "Hollywood Vampires",
 	"location": {
@@ -713,6 +732,7 @@
 	"poster": "https://s3.amazonaws.com/busites_www/hollywoodvampirescom/content/articles/hollywoodvampires_poland_localised_artwork.jpeg"
 	},
 	{
+	"_id": 20,
 	"date": "12.2.2018.",
 	"artist": "Greta Van Fleet",
 	"location": {
@@ -754,6 +774,7 @@
 	"poster": "https://78.media.tumblr.com/5d5132fea498aff4eb8503ebfe5a1631/tumblr_p2v5aik87R1rmctjho1_500.jpg"
 	},
 	{
+	"_id": 21,
 	"date": "8.9.2018.",
 	"artist": "Jared James Nichols",
 	"location": {
@@ -791,6 +812,7 @@
 	"poster": "https://bilbaoenvivo.files.wordpress.com/2015/05/bev-jared-james-nichols-0-cartel-gira-espac3b1ola.jpg"
 	},
 	{
+	"_id": 22,
 	"date": "21.7.2018.",
 	"artist": "Winery Dogs",
 	"location": {
@@ -832,6 +854,7 @@
 	"poster": "https://pbs.twimg.com/media/CiRFoDuWwAEeD7r.jpg"
 	},
 	{
+	"_id": 23,
 	"date": "19.7.2018.",
 	"artist": "Dead Daisies",
 	"location": {
@@ -873,6 +896,7 @@
 	"poster": "https://wizard-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/TDD_Poster_00-316x447.jpg"
 	},
 	{
+	"_id": 24,
 	"date": "25.7.2018.",
 	"artist": "Sons of Apollo",
 	"location": {
@@ -910,6 +934,7 @@
 	"poster": "https://musicglue-user-app-p-2-p.s3.amazonaws.com/originals/b2b73ad0-f9f9-0135-a15f-6280b8679f2b"
 	},
 	{
+	"_id": 25,
 	"date": "25.7.2018.",
 	"artist": "Rival Sons",
 	"location": {
@@ -951,6 +976,7 @@
 	"poster": "http://metalmouth.net/media/2014/06/rs_uk_dec14.jpg"
 	},
 	{
+	"_id": 26,
 	"date": "25.7.2018.",
 	"artist": "Winger",
 	"location": {
@@ -988,6 +1014,7 @@
 	"poster": "https://images-na.ssl-images-amazon.com/images/I/51abWXY0gEL.jpg"
 	},
 	{
+	"_id": 27,
 	"date": "25.7.2018.",
 	"artist": "Yngwie Malmsteen",
 	"location": {
@@ -1025,6 +1052,7 @@
 	"poster": "https://img.rnudah.com/images/24/2420099757.jpg"
 	},
 	{
+	"_id": 28,
 	"date": "25.7.2018.",
 	"artist": "Steve Vai",
 	"location": {
@@ -1060,5 +1088,1461 @@
 		}
 	],
 	"poster": "http://assets.blabbermouth.net/media/stevevaieurope2012.jpg"
+	},
+	{
+	"_id": 29,
+	"date": "25.7.2018.",
+	"artist": "Joe Satriani",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "https://i.ytimg.com/vi/dmaRT9PJvhY/maxresdefault.jpg",
+	"band_photo": "https://www.guitarworld.com/.image/t_share/MTUwNjEyMjczMTU1MDg5Nzg0/satrianijpg.jpg",
+	"gallery": [
+		"https://www.ultimate-guitar.com/static/article/news/5/71645_0_wide_ver1518268023.jpg@642",
+		"http://sportsbyline.com/wp-content/uploads/2018/03/Satriani.jpg",
+		"http://rockandrollgarage.com/wp-content/uploads/2017/11/Joe-Satriani.jpg",
+		"http://ultimateclassicrock.com/files/2017/06/joesatriani.jpg?w=600&h=0&zc=1&s=0&a=t&q=89"
+	],
+	"description": "Joseph Satriani (born July 15, 1956)[1][2] is an American instrumental rock guitarist and multi-instrumentalist. Early in his career, Satriani worked as a guitar instructor, with many of his former students achieving fame, such as Steve Vai, Larry LaLonde, Rick Hunolt, Kirk Hammett, Andy Timmons, Charlie Hunter, Kevin Cadogan, and Alex Skolnick; he then went on to have a successful solo music career. He is a 15-time Grammy Award nominee and has sold over 10 million albums, making him the biggest-selling instrumental rock guitarist of all time.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "https://m.media-amazon.com/images/M/MV5BYTY3MzE4NDgtNTQ1Yi00YTNjLTk4NzctZWI2YmZmNDc3OTliXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY317_CR33,0,214,317_AL_.jpg"
+	},
+	{
+	"_id": 30,
+	"date": "25.7.2018.",
+	"artist": "Crashdiet",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "https://www.wallpaperup.com/uploads/wallpapers/2014/05/08/350278/c2103c812f589bfe054122269bb92d44-700.jpg",
+	"band_photo": "https://s3-ap-southeast-1.amazonaws.com/heavy-images/wp-content/uploads/2013/04/10110319/crashdiet.jpg",
+	"gallery": [
+		"https://3.bp.blogspot.com/-NaEDWb2NmRw/Wigjm3JvMVI/AAAAAAAAB1I/up-yCTfbHLY7m2cdsAIuzwuwTBj72iz6ACLcBGAs/s1600/46903_photo.jpg",
+		"https://pre00.deviantart.net/45a7/th/pre/i/2012/173/2/8/crashdiet_3_by_wess2u-d54fyug.jpg",
+		"https://c1.staticflickr.com/9/8125/8806581440_607c9e35bf_b.jpg",
+		"http://www.metalobsession.net/wp-content/uploads/2013/01/img6905small.jpg"
+	],
+	"description": "Crashdïet (often stylised as CRASHDÏET) are a Swedish sleaze metal band from Stockholm. They have released four albums: 2005's Rest in Sleaze, 2007's The Unattractive Revolution, 2010s Generation Wild and 2013's The Savage Playground",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "https://www.dietrecords.org/images/stories/virtuemart/product/posterflag.png"
+	},
+	{
+	"_id": 31,
+	"date": "25.7.2018.",
+	"artist": "Reckless Love",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 60,
+		"lng": 33
+	},
+	"photo": "",
+	"band_photo": "http://www.darkside.ru/band/9087/b44728.jpg",
+	"gallery": [
+		"https://i.ytimg.com/vi/qFY8cvSIc9Y/maxresdefault.jpg",
+		"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Reckless_Love.jpg/1200px-Reckless_Love.jpg",
+		"https://static1.squarespace.com/static/57d79c7e725e250ead246879/5827be31f5e2316b415c8c88/584bce0e197aeaa0bbbbf63c/1481363286616/Reckless+Love+at+Gorilla+in+Manchester+10-03-2016+%28%C2%A9+Johann+Wierzbicki+%7C+ROCFLESH%29-1.jpg?format=1000w",
+		"http://novorossia.rocks/wp-content/uploads/2016/01/reckless-love-52264d236f3c2.jpg"
+	],
+	"description": "Reckless Love is a Finnish metal band, founded 2001 in Kuopio, Finland. On February 2010, they released their debut album, which reached number 13 in the Finnish charts. In 2011 they released their second album Animal Attraction, which was in the top 10 of the Finnish charts. After the success of Animal Attraction, Reckless Love released their third album Spirit in 2013, which contains the two singles 'Night on Fire' and 'So Happy I Could Die'. In February 2016 they released two singles, 'Keep it up all night' and 'Monster'. Their newest album, InVader, (containing Keep It Up All Night and Monster) was released on the 4th of March, on the opening night of their European tour with Santa Cruz (band).",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "http://www.rockshots.eu/wp-content/uploads/2014/04/silveraddiction.jpg"
+	},
+	{
+	"_id": 32,
+	"date": "25.7.2018.",
+	"artist": "Santa Cruz",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "http://santacruzbandofficial.com/wp-content/uploads/2015/03/banner-2-forest.jpg",
+	"gallery": [
+		"https://i.pinimg.com/originals/08/9f/9b/089f9b47f070399028b10ea07807ca56.jpg",
+		"https://heavymetaldaze.files.wordpress.com/2013/11/katl-76.jpg",
+		"http://static1.squarespace.com/static/57d79c7e725e250ead246879/59c795fa2994ca741bdf2205/5a3a98bce2c483d9690e085d/1524217092811/thumb_Santa_Cruz_Riot_Live_Rooms_Chester_December_14_2017_%C2%A9Johann_Wierzbicki_ROCKFLESH-1.jpg?format=1000w",
+		"http://santacruzbandofficial.com/wp-content/uploads/2015/03/tazzy.jpg",
+		"https://www.indulgentlifephoto.com/wp-content/uploads/2016/07/santa-cruz-knuckleheads-saloon-kansas-city-2.jpg",
+		"https://i.ytimg.com/vi/wuOgImjMb38/maxresdefault.jpg",
+		"http://sleazeroxx.com/wp-content/uploads/Santa-Cruz-photo-3-e1500752551917.jpg",
+		"https://i.pinimg.com/originals/d5/f6/74/d5f674539e38ad50ba056d166e98cd1e.jpg"
+	],
+	"description": "Santa Cruz is a Finnish hard rock band formed in 2007 in Helsinki by Archie Cruz and Johnny Parkkonen. The following year, bass player Middy Toivonen joined in. The band released two demos in 2008-2009. After changing a number of temporary drummers, they settled for a full-time drummer, Taz Fagerström in 2009 becoming a 4-member band. After a self-released EP of 6 songs titled Anthems for the Young 'n' Restless, they signed with Finnish Spinefarm Records in 2012[4] and released their first studio album Screaming for Adrenaline in April 2013.[5] Their eponymous 2nd album Santa Cruz was released in March 2015. The album featured a heavier sound than the previous and the band has described its sound as 'glamcore'. Their debut album reached no. 27 on Finnish album chart and their second album debuted as no. 3. In June 2016, Santa Cruz released the single 'Sky Diving Without A Parachute' then soon after, a rendition of One Direction’s title 'Drag Me Down'. The band released their third album, 'Bad Blood Rising' in November 2017, featuring the singles “River Phoenix” and “Young Blood Rising.” The songs of the band have appeared in a TV commercial of Mercedes-Benz and in sports compilation clips of U.S. ESPN television network. The band had live shows in England, Belgium and Germany in 2013. In 2015, the band made a European tour of 27 gigs. In 2016, the band toured with Sebastian Bach in the U.S.",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": "https://data.whicdn.com/images/96431019/large.jpg"
+	},
+	{
+	"_id": 33,
+	"date": "25.7.2018.",
+	"artist": "Alter Bridge",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 34,
+	"date": "25.7.2018.",
+	"artist": "Nickelback",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 35,
+	"date": "25.7.2018.",
+	"artist": "Alice in Chains",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 36,
+	"date": "25.7.2018.",
+	"artist": "Alice Cooper",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 37,
+	"date": "25.7.2018.",
+	"artist": "Def Leppard",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 38,
+	"date": "25.7.2018.",
+	"artist": "Motley Crue",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 39,
+	"date": "25.7.2018.",
+	"artist": "Dream Theater",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 40,
+	"date": "25.7.2018.",
+	"artist": "HEAT",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 41,
+	"date": "25.7.2018.",
+	"artist": "Velvet Revolver",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 42,
+	"date": "25.7.2018.",
+	"artist": "Audioslave",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 43,
+	"date": "25.7.2018.",
+	"artist": "Richie Kotzen",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 44,
+	"date": "25.7.2018.",
+	"artist": "Dokken",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 45,
+	"date": "25.7.2018.",
+	"artist": "Foreigner",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 46,
+	"date": "25.7.2018.",
+	"artist": "Cat Stevens",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 47,
+	"date": "25.7.2018.",
+	"artist": "Joe Bonamassa",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 48,
+	"date": "25.7.2018.",
+	"artist": "Tom Waits",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 49,
+	"date": "25.7.2018.",
+	"artist": "NIck Cave & The Bad Seeds",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 50,
+	"date": "25.7.2018.",
+	"artist": "Depeche Mode",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 51,
+	"date": "25.7.2018.",
+	"artist": "Glenn Hughes",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 52,
+	"date": "25.7.2018.",
+	"artist": "California Breed",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 53,
+	"date": "25.7.2018.",
+	"artist": "KISS",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 54,
+	"date": "25.7.2018.",
+	"artist": "Red Hot Chilli Peppers",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 55,
+	"date": "25.7.2018.",
+	"artist": "Gary Moore",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 56,
+	"date": "25.7.2018.",
+	"artist": "Thin Lizzy",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 57,
+	"date": "25.7.2018.",
+	"artist": "Blue Murder",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 58,
+	"date": "25.7.2018.",
+	"artist": "Santana",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 59,
+	"date": "25.7.2018.",
+	"artist": "Pantera",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 60,
+	"date": "25.7.2018.",
+	"artist": "Black Label Society",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 61,
+	"date": "25.7.2018.",
+	"artist": "Gus G",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 62,
+	"date": "25.7.2018.",
+	"artist": "Firewind",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 63,
+	"date": "25.7.2018.",
+	"artist": "Hardline",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 64,
+	"date": "25.7.2018.",
+	"artist": "Maroon 5",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 65,
+	"date": "25.7.2018.",
+	"artist": "Megadeth",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 66,
+	"date": "25.7.2018.",
+	"artist": "Green Day",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 67,
+	"date": "25.7.2018.",
+	"artist": "The Ramones",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 68,
+	"date": "25.7.2018.",
+	"artist": "Prince",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 69,
+	"date": "25.7.2018.",
+	"artist": "Queen",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 70,
+	"date": "25.7.2018.",
+	"artist": "Free",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 71,
+	"date": "25.7.2018.",
+	"artist": "Bad Company",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
+	},
+	{
+	"_id": 72,
+	"date": "25.7.2018.",
+	"artist": "Hinder",
+	"location": {
+		"city": "Novi Sad",
+		"venue": "Route 66",
+		"lat": 40,
+		"lng": 73
+	},
+	"photo": "",
+	"band_photo": "",
+	"gallery": [
+		"",
+		"",
+		"",
+		""
+	],
+	"description": "",
+	"tickets":[
+		{
+			"type": "Parter",
+			"price": 3500,
+			"inStock":10000
+		},
+		{
+			"type": "Tribine",
+			"price": 2200,
+			"inStock":10000
+		}
+	],
+	"poster": ""
 	}
 ]
