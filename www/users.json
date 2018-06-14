@@ -18,27 +18,165 @@
 		"name": 	"Gandalf the Grey",
 		"img": 		"https://vignette.wikia.nocookie.net/lotr/images/8/8d/Gandalf-2.jpg/revision/latest?cb=20130209172436",
 		"rezervacije": []
+	},
+	{	
+		"username": "frodo",
+		"password": "123",
+		"type": 	"user",
+		"name": 	"Frodo Baggins",
+		"img": 		"https://vignette.wikia.nocookie.net/p__/images/b/b4/FRODO.jpg/revision/latest?cb=20120124180422&path-prefix=protagonist",
+		"rezervacije": []
+	},
+	{	
+		"username": "samwisethebrave",
+		"password": "123",
+		"type": 	"user",
+		"name": 	"Samwise Gamgee",
+		"img": 		"https://vignette.wikia.nocookie.net/lotr/images/2/20/Sam.jpg/revision/latest?cb=20070623123241",
+		"rezervacije": []
+	},
+	{	
+		"username": "jonsnow",
+		"password": "123",
+		"type": 	"user",
+		"name": 	"Jon Snow",
+		"img": 		"http://alrai.com/uploads/repository/10/51/105191d9de41fe1c992902326e16f436.jpg",
+		"rezervacije": []
+	},
+	{	
+		"username": "samtarly",
+		"password": "reading",
+		"type": 	"user",
+		"name": 	"Samwell Tarly",
+		"img": 		"https://img.wennermedia.com/920-width/rs-140431-20140328-got24-x1800-1396043323.jpg",
+		"rezervacije": []
+	},
+	{	
+		"username": "tyrion",
+		"password": "lannisteralwayspayshisdebts",
+		"type": 	"user",
+		"name": 	"Tyrion Lannister",
+		"img": 		"https://vignette.wikia.nocookie.net/gameofthrones/images/1/1b/Tyrion_Lannister_S3.jpg/revision/latest?cb=20130127152950",
+		"rezervacije": []
+	},
+	{	
+		"username": "harrypotter",
+		"password": "voldemort",
+		"type": 	"user",
+		"name": 	"Harry Potter",
+		"img": 		"https://images.ctfassets.net/bxd3o8b291gf/3SQ3X2km8wkQIsQWa02yOY/25f258f21bdbe5f552a4419bb775f4f0/HarryPotter_WB_F4_HarryPotterMidshot_Promo_080615_Port.jpg?w=1200",
+		"rezervacije": []
+	},
+	{	
+		"username": "albus",
+		"password": "wizard",
+		"type": 	"user",
+		"name": 	"prof. Albus Dumbledore",
+		"img": 		"https://images.ctfassets.net/bxd3o8b291gf/1dmmUJzpRcWaUmMOCu8QwO/b9107c76889806699334ed54588e9ee2/AlbusDumbledore_WB_F6_DumbledoreSittingInChair_Promo_080615_Port.jpg?w=1200",
+		"rezervacije": []
+	},
+	{	
+		"username": "ron123",
+		"password": "123",
+		"type": 	"user",
+		"name": 	"Ronald Weasley",
+		"img": 		"http://i.tuenlinea.com/dam/noticias/17/03/16/rupert_grint_odia_ver_a_otro_actor_como_ron_weasley_800x410.jpg.imgw.1280.1280.jpeg",
+		"rezervacije": []
+	},
+	{	
+		"username": "hermione",
+		"password": "123",
+		"type": 	"user",
+		"name": 	"Hermione Granger",
+		"img": 		"http://4.bp.blogspot.com/-Ti4fo-pI608/TtZFPiQrZCI/AAAAAAAAABc/aticjXBnYpA/s1600/Emma_Watson_Harry_Potter_and_Half_Blood_Prince%255B1%255D.JPG",
+		"rezervacije": []
+	},
+	{	
+		"username": "hiro",
+		"password": "heroes",
+		"type": 	"user",
+		"name": 	"Hiro Nakamura",
+		"img": 		"https://vignette.wikia.nocookie.net/heroes/images/2/22/Hiro_Nakamura.jpg/revision/latest?cb=20081015083142",
+		"rezervacije": []
+	},
+	{	
+		"username": "ando",
+		"password": "heroes",
+		"type": 	"user",
+		"name": 	"Ando Masahasi",
+		"img": 		"https://vignette.wikia.nocookie.net/myherotv/images/a/a8/Ando_masahashi-1-.jpg/revision/latest?cb=20130926160626",
+		"rezervacije": []
+	},
+	{	
+		"username": "peterpetrelli",
+		"password": "heroes",
+		"type": 	"user",
+		"name": 	"Peter Petrelli",
+		"img": 		"http://heroeswiki.com/images/5/59/MiloVentimiglia.jpg",
+		"rezervacije": []
+	},
+	{	
+		"username": "president",
+		"password": "heroes",
+		"type": 	"user",
+		"name": 	"Nathan Petrelli",
+		"img": 		"http://heroeswiki.com/images/0/06/Nathanpetrelli.jpg",
+		"rezervacije": []
+	},
+	{	
+		"username": "genesis",
+		"password": "heroes",
+		"type": 	"user",
+		"name": 	"Mohinder Suresh",
+		"img": 		"http://heroeswiki.com/images/2/2d/Future_Mohinder.jpg",
+		"rezervacije": []
+	},
+	{	
+		"username": "claire",
+		"password": "heroes",
+		"type": 	"user",
+		"name": 	"Claire Bennet",
+		"img": 		"http://images.fanpop.com/images/image_uploads/Claire-claire-bennet-471096_267_400.jpg",
+		"rezervacije": []
+	},
+	{	
+		"username": "noah",
+		"password": "heroes",
+		"type": 	"user",
+		"name": 	"Noah Bennet",
+		"img": 		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5QDPG2OyuDLaBkgSnCIIKAdXdxZ0fXPtP2hRh7-OJyam18lim",
+		"rezervacije": []
+	},
+	{	
+		"username": "mattparker",
+		"password": "heroes",
+		"type": 	"user",
+		"name": 	"Matt Parker",
+		"img": 		"https://vignette.wikia.nocookie.net/myherotv/images/b/be/MattParkman-1-.jpg/revision/latest?cb=20130926153525",
+		"rezervacije": []
+	},
+	{	
+		"username": "molly",
+		"password": "heroes",
+		"type": 	"user",
+		"name": 	"Molly Walker",
+		"img": 		"http://heroeswiki.com/images/7/7f/Molly.jpg",
+		"rezervacije": []
+	},
+	{	
+		"username": "micah",
+		"password": "heroes",
+		"type": 	"user",
+		"name": 	"Micah Sanders",
+		"img": 		"https://m.media-amazon.com/images/M/MV5BMTQ5NzQwODY5Nl5BMl5BanBnXkFtZTgwMzc5Mjc0MzE@._V1_UX214_CR0,0,214,317_AL_.jpg",
+		"rezervacije": []
+	},
+	{	
+		"username": "profx",
+		"password": "xmen",
+		"type": 	"user",
+		"name": 	"prof. Charles Xavier",
+		"img": 		"https://vignette.wikia.nocookie.net/xmenmovies/images/4/43/Professor_X_03.jpg/revision/latest?cb=20110613063951",
+		"rezervacije": []
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
