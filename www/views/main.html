@@ -8,7 +8,7 @@
 <section class="pagination" ng-if="(vm.events|filter:searchText).length>8">
   <a ng-click="vm.currentPage=0">&laquo;</a>
   <a ng-click="vm.currentPage=page" 
-     ng-repeat="page in [0,1,2,3,4]"
+     ng-repeat="page in [0,1,2,3,4,5,6,7,8,9]"
      ng-if="page < (vm.events|filter:searchText).length / 8">{{page+1}}</a>
   <a ng-click="vm.currentPage=(vm.events|filter:searchText).length / 8 -1">&raquo;</a>
 </section>

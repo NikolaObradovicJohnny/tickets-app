@@ -80,9 +80,6 @@ app.controller('MainCtrl', function($scope, $http) {
     // }
 
     vm.login = function () {
-		console.log('login');
-		console.log(vm.username);
-		console.log(vm.password);
 		
 		vm.jeUlogovan = vm.isValidUser();
 		
@@ -100,7 +97,6 @@ app.controller('MainCtrl', function($scope, $http) {
 		for(var i in vm.users){
 			var user = vm.users[i];
 			if(vm.username === user.username ) {
-				console.log('naso sam usera');
 				if(vm.password === user.password ) {
 					vm.ulogovanKorisnik = {
 						username: user.username,
@@ -137,7 +133,6 @@ app.controller('MainCtrl', function($scope, $http) {
       }
       $http(request).then(
           function(response){
-            console.log(response);
             var lista = [];
             vm.events = response.data;
             for(var i in vm.events){
@@ -158,8 +153,6 @@ app.controller('MainCtrl', function($scope, $http) {
 		}
 		$http(request).then(
 			function(response){
-				console.log(response);
-
 				for(var i in response.data){
 					var user = response.data[i];
 					vm.users.push(user);
@@ -183,10 +176,8 @@ app.controller('MainCtrl', function($scope, $http) {
         totalPrice: selectedOption.price * brojKomada,
         event: vm.event
       };
-      console.log(karta);
       selectedOption.inStock =- selectedOption.brojKomada; 
       vm.ulogovanKorisnik.rezervacije.push(karta);
-      console.log(vm.ulogovanKorisnik.rezervacije);
     };
 
 });
@@ -216,3 +207,16 @@ app.directive("myMaps", function(){
     }
   }
 });
+// Key Enter
+app.directive('keyEnter', function () {
+        return function (scope, element, attrs) {
+            element.bind("keydown keypress", function (event) {
+                if(event.which === 13) {
+                    scope.$apply(function (){
+                        scope.$eval(attrs.keyEnter);
+                    });
+                    event.preventDefault();
+                }
+            });
+        };
+    });
