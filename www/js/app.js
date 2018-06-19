@@ -186,7 +186,10 @@ app.controller('MainCtrl', function($scope, $http) {
       console.log(karta);
       selectedOption.inStock =- selectedOption.brojKomada; 
       vm.ulogovanKorisnik.rezervacije.push(karta);
-      console.log(vm.ulogovanKorisnik.rezervacije);
+		var x = document.getElementById("snackbar");
+		x.className = "show";
+		setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);     
+	  
     };
 
 });

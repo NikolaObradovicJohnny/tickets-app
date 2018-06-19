@@ -21,7 +21,7 @@
 		</section>
 		<nav class="shadow">
 			<img class="logo" src="logo.png" ng-click="vm.eventDetailView = false" />
-			<span class="ulogovan-info shadow" ng-show="vm.jeUlogovan" >
+			<span class="ulogovan-info shadow fadeOut" ng-show="vm.jeUlogovan" >
 				<img ng-if="vm.ulogovanKorisnik.img != undefined" src="{{vm.ulogovanKorisnik.img}}" /> <br/>
 				Ulogovan korisnik je:{{vm.ulogovanKorisnik.name}}
 				<button ng-if="vm.jeUlogovan" ng-click="vm.jeUlogovan=false" class="login background-color-red">Logout</button>
@@ -60,18 +60,22 @@
 			<img class="event-list-item-img2" src="{{vm.event.poster}}" />
 			<h1>{{vm.event.artist}}</h1>
 			<h5>{{vm.event.date}} &nbsp; &nbsp; {{vm.event.location.venue}}, {{vm.event.location.city}}</h5>
-			<section class="buy-ticket" name="text">
+			<div ng-show="!vm.jeUlogovan">Please log in to buy a ticket</div>
+			<section ng-show="vm.jeUlogovan" class="buy-ticket" name="text">
+			
+				<label>seat type:</label>
 				<select class="background-color-red" 
 				ng-options="tickets.type for tickets in vm.event.tickets"
-				ng-model="selectedOption">
+				ng-model="selectedOption" placeholder="select type">
 				
 					<!-- <option ng-repeat="ticket in vm.event.tickets">{{ticket.type}}</option> -->
 				</select>
+				
 				<label>amount :</label>
 				<input type="number" min="0" max="{{selectedOption.inStock}}" ng-model="brojKomada" placeholder="enter">
 				<label>total price:</label>
 				<input type="number" ng-model="selectedOption.price*brojKomada" readonly="readonly"> din.
-				<button class="buy background-color-red" ng-click="vm.buyTicket(selectedOption, brojKomada)">Kupi kartu</button><br><br>
+				<button class="buy background-color-red" ng-click="vm.buyTicket(selectedOption, brojKomada)">Buy ticket</button><br><br>
 			</section>
 			<div class="event-description event-description-shadow">
 			Event details<br><br>
@@ -100,6 +104,7 @@
 		<footer> 
 		Copyright &copy;2017 HCI Projekat - Univerzitet Singidunum
 		</footer>
+		<div id="snackbar">ticket sucessfuly bought!..</div>
 
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	    <!-- <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
@@ -113,7 +118,7 @@
 	    <script src="js/app.js"></script>
 		<script src="js/lightbox.min.js"></script>
 		<script src="js/lightbox.js"></script>
-		<script src="js/direktive/key-enter.js"</script>
+		
 		
 		<script>
 		var slideIndex = 1;
@@ -136,6 +141,6 @@
 		  x[slideIndex-1].style.display = "block";
 		}
 		</script>
-		
+		<script src="js/direktive/key-enter.js"</script>
 	</body>
 </html>
