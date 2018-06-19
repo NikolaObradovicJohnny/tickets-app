@@ -4,7 +4,7 @@
 
   <section ng-repeat="rezervacija in vm.ulogovanKorisnik.rezervacije | filter:searchText | limitTo: 8" class="rezervacija shadow">
     <i class="fas fa-times-circle" 
-    ng-click="vm.ulogovanKorisnik.rezervacije.splice(vm.ulogovanKorisnik.rezervacije.indexOf(rezervacija),1)"></i>
+    ng-click="vm.rezervacijaZaBrisanje = rezervacija"></i>
     <img src="{{rezervacija.event.poster}}" />
     <aside class="rezervacija-info">
       <h3> {{rezervacija.event.artist}} </h3>
@@ -19,12 +19,20 @@
 
   <section class="pagination">
     <a href="">&laquo;</a>
-    <!-- <a click="vm.currentPage=page" ng-repeat="page in (vm.ulogovanKorisnik.rezervacije.length / 8)">{{page}}</a> -->
     <a href="">1</a>
     <a href="">2</a>
     <a href="">3</a>
     <a href="">&raquo;</a>
   </section>
+  
+  <div class="alert snackbar" ng-if="vm.rezervacijaZaBrisanje">
+    <span class="closebtn" ng-click="vm.rezervacijaZaBrisanje = false">&times;</span>  
+    <p>
+      <strong>Danger!</strong> Are you sure that you want to delete this reservation??
+    </p>
+    <button class="yes" ng-click="vm.ulogovanKorisnik.rezervacije.splice(vm.ulogovanKorisnik.rezervacije.indexOf(vm.rezervacijaZaBrisanje),1);vm.rezervacijaZaBrisanje=false;">Yes</button>
+    <button class="no" ng-click="vm.rezervacijaZaBrisanje = false">No</button>
+  </div>
 
 </article>
 
@@ -63,5 +71,51 @@ aside.rezervacija-info {
   padding: 1em;
   text-align: left;
   /*background-color: #fff;*/
+}
+/*  Da li ste sigurni da zelite da ponistite rezervaciju?  */
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+.alert.snackbar {
+  width: 77%;
+  margin: 0%;
+  /*min-width: 250px;*/
+  display: block;
+  /*margin: 22%;*/
+  /*margin-left: -125px;*/
+  /*background-color: #333;*/
+  /*border-radius: 1em;*/
+  /*padding: 16px;*/
+  position: fixed;
+  z-index: 1;
+  /*left: 50%;*/
+  bottom: 9em;
+  font-size: 17px;
+  box-shadow: 0px 0px 15px #333;
 }
 </style>

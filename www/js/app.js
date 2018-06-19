@@ -11,11 +11,9 @@ var app = angular.module('TicketsApp', ['ngRoute'])
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
-      // .when('/events', {
-      //   templateUrl: 'views/events.html',
-      //   controller: 'EventsCtrl',
-      //   controllerAs: 'predmeti'
-      // })
+      .when('/admin', {
+        templateUrl: 'views/admin.html'
+      })
       .when('/rezervacije', {
         templateUrl: 'views/rezervacije.html'
         // controller: 'RezervacijeCtrl',
@@ -65,6 +63,7 @@ app.controller('MainCtrl', function($scope, $http) {
 	vm.events = [];
 	vm.users = [];
 	vm.eventDetailView = false;
+  vm.sliderInvisible = false;
 
     $scope.alerts = [
     ];
@@ -178,7 +177,19 @@ app.controller('MainCtrl', function($scope, $http) {
       };
       selectedOption.inStock =- selectedOption.brojKomada; 
       vm.ulogovanKorisnik.rezervacije.push(karta);
+
+      var x = document.getElementById("snackbar");
+      x.className = "show";
+      setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);     
     };
+
+    vm.rezervacijaZaBrisanje = false;
+    vm.deleteReservation = function() {
+      if (vm.rezervacijaZaBrisanje) {
+        vm.ulogovanKorisnik.rezervacije.splice(vm.ulogovanKorisnik.rezervacije.indexOf(vm.rezervacijaZaBrisanje),1);
+        vm.rezervacijaZaBrisanje = false;
+      }
+    }
 
 });
 

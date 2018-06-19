@@ -174,6 +174,36 @@ form.example::after {
     display: table;
 }
 
+button {
+	border: none;
+    /*color: white;*/
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+	border-radius: 1em;
+	border: 1px solid grey;
+	cursor: pointer;
+}
+button.yes {
+	background-color: #4CAF50;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+}
+button.yes:hover {
+	background-color: #5CBF60;
+}
+button.no {
+	background-color: #ff9800;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+}
+button.no:hover {
+	background-color: #ef8800;
+}
 button.login {
     border: none;
     color: white;
@@ -216,6 +246,12 @@ button.buy {
 .background-color-red:hover {
 	background-color: #b70505;
 }
+.text-color-white, .text-color-white * {
+	color: #fdfdfd;
+}
+header {
+	margin-bottom: 1em;
+}
 header img {
 	width: 100%;
 	height: 400px;
@@ -250,9 +286,6 @@ header img {
 main {
 	background-color: #333;
 	text-align: center;
-	align-content: center;
-	margin-top: 1em;
-	padding-top: 1em;
 }
 
 article.event-list-item {
@@ -262,6 +295,9 @@ article.event-list-item {
 	padding: 1em;
 	border-radius: 1em;
 	background-color: #555;
+}
+article.event-list-item:hover {
+	transform: scale(1) rotate(1deg);	
 }
 aside.event-list-item{
 	display: block;
@@ -466,4 +502,76 @@ footer {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+
+ @-webkit-keyframes fadeOut {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+ }
+ 
+ @keyframes fadeOut {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+ }
+ 
+ .fadeOut {
+	-webkit-animation-duration: 5s;
+	 animation-duration: 5s;
+	-webkit-animation-fill-mode: both;
+	 animation-fill-mode: both;
+	-webkit-animation-name: fadeOut;
+	 animation-name: fadeOut;
+ }
+
+ #snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+
+
+@media (max-width: 700px) {
+	
 }

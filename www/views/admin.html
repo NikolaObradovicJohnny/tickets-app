@@ -1,0 +1,141 @@
+<article class="admin-panel">
+	<h1>Hello {{vm.ulogovanKorisnik.name}}, Welcome to AdminPANEL! </h1>
+	<p>
+		Dodati operacije za kreiranje, izmenu i brisanje (CRUD - Create, Read, Update, Delete) nad podacima
+		<ol>
+			<li> Events </li>
+			<li> Users </li>
+		</ol>
+	</p>
+</article>
+
+<article class="admin-panel">
+	<h2> Events list </h2>
+	<ul class="admin-list">
+		<li ng-repeat="event in vm.events | filter:searchText | limitTo: 8:(vm.currentPage*8)">
+			<!-- <section> -->
+			<img class="event-poster" src="{{event.poster}}" /> 
+			<span class="closebtn">&times;</span>
+				
+			<!-- </section> -->
+			<!-- <br/> -->
+			<section class="user-info">
+				<h4>{{event.artist}}</h4> 
+				<!-- <br/> -->
+				{{event.date}}
+			</section>
+		</li>
+	</ul>
+	<section class="pagination" ng-if="(vm.events|filter:searchText).length>8">
+	  <a ng-click="vm.currentPage=0">&laquo;</a>
+	  <a ng-click="vm.currentPage=page" 
+	     ng-repeat="page in [0,1,2,3,4,5,6,7,8,9]"
+	     ng-if="page < (vm.events|filter:searchText).length / 8">{{page+1}}</a>
+	  <a ng-click="vm.currentPage=(vm.events|filter:searchText).length / 8 -1">&raquo;</a>
+	</section>
+	<p>
+		Nadjeno {{(vm.events|filter:searchText).length}} dogadjaja.
+	</p>
+</article>
+<article class="admin-panel">
+	<h2> Users list </h2>
+	<ul class="admin-list">
+		<li ng-repeat="user in vm.users | filter:searchText | limitTo: 8:(vm.currentPageUsers*8)">
+			<!-- <section> -->
+			<img class="user-img" src="{{user.img}}" /> 
+			<span class="closebtn">&times;</span>
+				
+			<!-- </section> -->
+			<!-- <br/> -->
+			<section class="user-info">
+				<h4>{{user.name}}</h4> 
+				<!-- <br/> -->
+				{{user.type}}
+			</section>
+		</li>
+	</ul>
+	<section class="pagination" ng-if="(vm.users|filter:searchText).length>8">
+	  <a ng-click="vm.currentPageUsers=0">&laquo;</a>
+	  <a ng-click="vm.currentPageUsers=page" 
+	     ng-repeat="page in [0,1,2,3,4,5,6,7,8,9]"
+	     ng-if="page < (vm.users|filter:searchText).length / 8">{{page+1}}</a>
+	  <a ng-click="vm.currentPageUsers=(vm.users|filter:searchText).length / 8 -1">&raquo;</a>
+	</section>
+	<p>
+		Nadjeno {{(vm.users|filter:searchText).length}} korisnika.
+	</p>
+</article>
+
+<style type="text/css">
+article.admin-panel {
+	background-color: #fff;
+	padding: 1em 0em;
+}
+ul.admin-list {
+	display: block;
+	text-align: left;
+	background-color: #fff;
+	width: 50%;
+}
+ul.admin-list li {
+	display: block;
+	border-width: 0em;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #999;
+	margin: 1em;
+	box-shadow: 0px 3px 6px #666;
+}
+ul.admin-list li:hover {
+	box-shadow: 0px 3px 9px #333;
+	cursor: pointer;
+	/*background-color: #2196F3;*/
+	background-color: #dedede;
+}
+ul.admin-list li img {
+	vertical-align: middle;
+	margin: 1em;
+	text-align: left;
+	position: relative;
+}
+ul.admin-list li img.user-img {
+	width: 6em;
+	height: 6em;
+	border-radius: 50%;
+	object-fit: cover;
+	margin: 2em;
+}
+ul.admin-list li img.event-poster {
+	width: 6em;
+	height: 9em;
+	border-radius: 1em;
+	object-fit: contain;
+}
+ul.admin-list li section {
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+	width: 50%;
+	height: 100%;
+	padding: 1em;
+	text-align: left;
+}
+.closebtn {
+	color: #333;
+	margin: 1em;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 860px) {
+	ul.admin-list {
+		width: 100%;
+	}	
+}
+</style>

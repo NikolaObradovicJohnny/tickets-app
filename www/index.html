@@ -20,17 +20,18 @@
 			<button class="register">Registracija</button>
 		</section>
 		<nav class="shadow">
-			<img class="logo" src="logo.png" ng-click="vm.eventDetailView = false" />
-			<span class="ulogovan-info shadow" ng-show="vm.jeUlogovan" >
+			<img class="logo" src="logo.png" ng-click="vm.eventDetailView = false;vm.sliderInvisible = false;" />
+			<span class="ulogovan-info shadow fadeOut" ng-show="vm.jeUlogovan" >
 				<img ng-if="vm.ulogovanKorisnik.img != undefined" src="{{vm.ulogovanKorisnik.img}}" /> <br/>
 				Ulogovan korisnik je:{{vm.ulogovanKorisnik.name}}
 				<button ng-if="vm.jeUlogovan" ng-click="vm.jeUlogovan=false" class="login background-color-red">Logout</button>
 			</span>
 			<ul>
-				<li ng-click="vm.eventDetailView = false"><a href="/">Home</a></li>
-				<li><a href="#">Artists</a></li>
-				<li><a href="#!/about">About us</a></li>
-				<li ng-if="vm.jeUlogovan"><a href="#!/rezervacije"> Moje Rezervacije <i class="fas fa-cart-arrow-down"></i></a></li>
+				<li ng-click="vm.eventDetailView = false;vm.sliderInvisible = false;"><a href="/">Home</a></li>
+				<li ng-click="vm.eventDetailView = false;vm.sliderInvisible=true;"><a href="#!/admin">Admin Panel</a></li>
+				<li ng-click="vm.eventDetailView = false;vm.sliderInvisible=true;"><a href="#">Artists</a></li>
+				<li ng-click="vm.eventDetailView = false;vm.sliderInvisible=true;"><a href="#!/about">About us</a></li>
+				<li ng-click="vm.eventDetailView = false;vm.sliderInvisible=true;" ng-if="vm.jeUlogovan"><a href="#!/rezervacije"> Moje Rezervacije <i class="fas fa-cart-arrow-down"></i></a></li>
 				<!--<li><a href="#"><i class="fas fa-map-marker-alt"></i> Change Location </a></li>-->
 				<li>
 					<form class="example" style="max-width:400px">
@@ -44,7 +45,7 @@
 				</li>
 			</ul>
 		</nav>
-		<header ng-if="!vm.eventDetailView">
+		<header ng-if="!vm.sliderInvisible">
 			<img class="mySlides" src="http://www.amaliearena.com/assets/img/iron_640x360-bcbca896aa.jpg">
 			<img class="mySlides" src="http://www.metalsucks.net/wp-content/uploads/2017/08/metallicaheavymontreal2017.jpg">
 			<img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRz5Lk95lylTy2gHKiFV49wN4GJHW3c9tMRUt-L1h4mpCmi4X_">
@@ -60,18 +61,22 @@
 			<img class="event-list-item-img2" src="{{vm.event.poster}}" />
 			<h1>{{vm.event.artist}}</h1>
 			<h5>{{vm.event.date}} &nbsp; &nbsp; {{vm.event.location.venue}}, {{vm.event.location.city}}</h5>
-			<section class="buy-ticket" name="text">
+			<div ng-show="!vm.jeUlogovan">Please log in to buy a ticket</div>
+			<section ng-show="vm.jeUlogovan" class="buy-ticket" name="text">
+			
+				<label>seat type:</label>
 				<select class="background-color-red" 
 				ng-options="tickets.type for tickets in vm.event.tickets"
-				ng-model="selectedOption">
+				ng-model="selectedOption" placeholder="select type">
 				
 					<!-- <option ng-repeat="ticket in vm.event.tickets">{{ticket.type}}</option> -->
 				</select>
+				
 				<label>amount :</label>
 				<input type="number" min="0" max="{{selectedOption.inStock}}" ng-model="brojKomada" placeholder="enter">
 				<label>total price:</label>
 				<input type="number" ng-model="selectedOption.price*brojKomada" readonly="readonly"> din.
-				<button class="buy background-color-red" ng-click="vm.buyTicket(selectedOption, brojKomada)">Kupi kartu</button><br><br>
+				<button class="buy background-color-red" ng-click="vm.buyTicket(selectedOption, brojKomada)">Buy ticket</button><br><br>
 			</section>
 			<div class="event-description event-description-shadow">
 			Event details<br><br>
@@ -89,9 +94,6 @@
 			</div>
 			<h3> Location </h3>
 			<my-maps id="map" lat="{{vm.event.location.lat}}" lng="{{vm.event.location.lng}}"></my-maps>
-			<!-- <script async defer
-	        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBp2zRSeegCKFERACVFBM30GHQLmtYrVE4&sensor=false">
-	        </script> -->
 
 		</aside>
 		
@@ -100,6 +102,7 @@
 		<footer> 
 		Copyright &copy;2017 HCI Projekat - Univerzitet Singidunum
 		</footer>
+		<div id="snackbar"> Ticket sucessfuly bought! </div>
 
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	    <!-- <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
@@ -113,7 +116,6 @@
 	    <script src="js/app.js"></script>
 		<script src="js/lightbox.min.js"></script>
 		<script src="js/lightbox.js"></script>
-		<!-- <script src="js/direktive/key-enter.js"</script> -->
 		
 		<script>
 		var slideIndex = 1;
@@ -136,6 +138,5 @@
 		  x[slideIndex-1].style.display = "block";
 		}
 		</script>
-		
 	</body>
 </html>
