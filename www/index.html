@@ -21,7 +21,7 @@
 		</section>
 		<nav class="shadow">
 			<img class="logo" src="logo.png" ng-click="vm.eventDetailView = false;vm.sliderInvisible = false;" />
-			<span class="ulogovan-info shadow fadeOut" ng-show="vm.jeUlogovan" >
+			<span class="ulogovan-info shadow" ng-show="vm.jeUlogovan" >
 				<img ng-if="vm.ulogovanKorisnik.img != undefined" src="{{vm.ulogovanKorisnik.img}}" /> <br/>
 				Ulogovan korisnik je:{{vm.ulogovanKorisnik.name}}
 				<button ng-if="vm.jeUlogovan" ng-click="vm.jeUlogovan=false" class="login background-color-red">Logout</button>
@@ -68,8 +68,7 @@
 				<select class="background-color-red" 
 				ng-options="tickets.type for tickets in vm.event.tickets"
 				ng-model="selectedOption">
-				
-					<!-- <option ng-repeat="ticket in vm.event.tickets">{{ticket.type}}</option> -->
+
 				</select>
 				
 				<label>amount :</label>
@@ -137,6 +136,31 @@
 		  }
 		  x[slideIndex-1].style.display = "block";
 		}
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("main article").click(function() {
+					$('html, body').animate({
+						scrollTop: $("main").offset().top
+					}, 500);
+				});
+				$("nav ul li").click(function() {
+					$('html, body').animate({
+						scrollTop: $("nav").offset().top
+					}, 2000);
+				});
+
+				$("ol li").click(function() {
+					$('html, body').animate({
+						scrollTop: $("main").offset().top
+					}, 2000);
+				});
+
+				$(".ulogovan-info").click(function(){
+			        $(".ulogovan-info img").slideToggle("slow");
+			    });
+
+			});
 		</script>
 	</body>
 </html>

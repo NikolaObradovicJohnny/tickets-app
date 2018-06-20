@@ -80,7 +80,7 @@
 <!-- Admin Users View -->
 <article class="admin-panel" ng-if="vm.adminUsersView">
 	<h2> Users list </h2>
-	<button class="add" ng-click="vm.newUser = {}"> <i class="fas fa-plus-circle"></i> New </button>
+	<button class="add" ng-click="vm.newUser = { password: 'ChangeMe123'}"> <i class="fas fa-plus-circle"></i> New </button>
 	<ul class="admin-list">
 		<li ng-repeat="user in vm.users | filter:searchText | limitTo: 8:(vm.currentPageUsers*8)"
 		ng-click="vm.selectedUser = user">
@@ -118,6 +118,12 @@
 	ng-if="vm.editMode" />
 	<p ng-if="!vm.editMode"> {{vm.selectedUser.name}} </p>
 
+	<label ng-click="vm.editMode=!vm.editMode"> Username <i class="fas fa-edit"></i> </label>
+	<input type="text" name="username" 
+	ng-model="vm.selectedUser.username"
+	ng-if="vm.editMode" />
+	<p ng-if="!vm.editMode"> {{vm.selectedUser.username}} </p>
+
 	<label ng-click="vm.editMode=!vm.editMode"> Type <i class="fas fa-edit"></i> </label>
 	<input type="text" name="type" 
 	ng-model="vm.selectedUser.type"
@@ -134,8 +140,14 @@
 	<label> Name </label>
 	<input type="text" name="name" ng-model="vm.newUser.name" />
 
+	<label> Username </label>
+	<input type="text" name="username" ng-model="vm.newUser.username" />
+
 	<label> Type </label>
-	<input type="text" name="type" ng-model="vm.newUser.type">
+	<!-- <input type="text" name="type" ng-model="vm.newUser.type"> -->
+	<select	ng-options="type for type in ['admin','user']" ng-model="vm.newUser.type">	
+	</select>
+				
 
 	<button class="yes" ng-click="vm.users.push(vm.newUser); vm.newUser=false;"> Save </button>
 	<button class="no" ng-click="vm.newUser=false"> Cancel </button>
@@ -226,7 +238,7 @@ ul.admin-list li section {
 .closebtn {
 	color: #333;
 	margin: 1em;
-	z-index: 200;
+	z-index: 200em;
 }
 
 article.selected-event, article.new-event, article.selected-user {
@@ -256,7 +268,7 @@ article.selected-event, article.new-event, article.selected-user {
 article.selected-event h2, article.new-event h2, article.selected-user h2 {
 	text-align: center;
 }
-article.selected-event label, article.selected-event p, article.selected-user label, article.selected-user p {
+article.selected-event label, article.selected-event p, article.selected-user label, article.selected-user p, article.new-event label {
 	margin: 1em;
 	font-size: 14px;
 }
@@ -267,7 +279,8 @@ article.selected-event label, article.new-event label, article.selected-user lab
 	font-weight: bold;
 	cursor: pointer;
 }
-article.selected-event input, article.new-event input, article.selected-user input {
+article.selected-event input, article.new-event input, article.selected-user input,
+	article.selected-user select, article.new-event select {
 	padding: 8px;
     display: block;
     border: none;
@@ -276,6 +289,7 @@ article.selected-event input, article.new-event input, article.selected-user inp
     text-align: left;
     position: relative;
     margin: 1em;
+    background-color: #fff;
 }
 article.selected-event textarea, article.new-event textarea {
 	overflow: auto;
