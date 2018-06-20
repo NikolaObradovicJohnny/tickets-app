@@ -35,6 +35,11 @@
 	<p>
 		Nadjeno {{(vm.events|filter:searchText).length}} dogadjaja.
 	</p>
+	<script type="text/javascript">
+		$('html, body').animate({
+			scrollTop: $("main").offset().top
+		}, 2000);
+	</script>
 </article>
 <!-- New Event Modal -->
 <article class="new-event modal" ng-if="vm.newEvent">
@@ -107,6 +112,11 @@
 	<p>
 		Nadjeno {{(vm.users|filter:searchText).length}} korisnika.
 	</p>
+	<script type="text/javascript">
+		$('html, body').animate({
+			scrollTop: $("main").offset().top
+		}, 2000);
+	</script>
 </article>
 <!-- Selected User Modal -->
 <article class="selected-user modal" ng-if="vm.selectedUser">

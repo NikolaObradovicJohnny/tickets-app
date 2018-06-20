@@ -1530,8 +1530,12 @@
 	"gallery": [
 		"https://i.ytimg.com/vi/HGMNmmMSI_E/maxresdefault.jpg",
 		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9r0sw1BhzzH4eg1IqmyJRa3qBd-1Qv3_JeIIxcXMe6aKwqYIOaw",
-		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOST2byYHyLixYJdAyqVl-EfWDPnZDK3QSMHTinr0q3CT1gC1z",
-		"http://vancouverweekly.com/wp-content/uploads/2017/02/srb_group.jpg"
+		"http://www.slamrocks.com/wp-content/uploads/2014/01/H.E.A.T..jpg",
+		"https://www.ear-music.net/sites/default/files/artists/80/gallery/HEAT_Into%20The%20Great%20Unknown_Copyright%20Klara%20Fowler_08.jpg",
+		"https://theurbanside.files.wordpress.com/2015/02/2015-02-05-23-57-23-1.jpg",
+		"https://www.metalreviews.com/interviews/images/heat_band.jpg",
+		"https://scandasia.com/wp-content/uploads/2013/09/heat.jpg",
+		"https://popnable.com/images/singers/temp/heat_sweden_top_50_197.jpg"
 	],
 	"description": "This Heat were an English experimental rock band, formed in early 1976 in Camberwell, London by multi-instrumentalists Charles Bullen (guitar, clarinet, viola, vocals, tapes), Charles Hayward (drums, keyboards, vocals, tapes) and Gareth Williams (keyboard, guitar, bass, vocals, tapes).",
 	"tickets":[
@@ -1551,7 +1555,7 @@
 			"inStock":10000
 		}
 	],
-	"poster": "https://i.pinimg.com/736x/0a/99/3b/0a993b1df0db0e7d6fc35552621ef813--band-posters-rock-posters.jpg"
+	"poster": "http://www.supercharger.dk/graphics/heat_tour.jpg"
 	},
 	{
 	"_id": 41,

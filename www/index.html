@@ -94,6 +94,10 @@
 			<h3> Location </h3>
 			<my-maps id="map" lat="{{vm.event.location.lat}}" lng="{{vm.event.location.lng}}"></my-maps>
 
+			<script type="text/javascript">
+				$('html, body').animate({ scrollTop: 0 }, 2000);
+			</script>
+
 		</aside>
 		
 		<main ng-if="!vm.eventDetailView" ng-view="">
@@ -139,11 +143,7 @@
 		</script>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$("main article").click(function() {
-					$('html, body').animate({
-						scrollTop: $("main").offset().top
-					}, 500);
-				});
+				
 				$("nav ul li").click(function() {
 					$('html, body').animate({
 						scrollTop: $("nav").offset().top
