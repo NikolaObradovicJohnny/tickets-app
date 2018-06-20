@@ -9,12 +9,12 @@
 		"username": "marko",
 		"password": "1234",
 		"type": 	"admin",
-		"name": 	"Petar Petrovic"
+		"name": 	"Marko Petrovic"
 	},
 	{	
 		"username": "gandalf",
 		"password": "123",
-		"type": 	"user",
+		"type": 	"admin",
 		"name": 	"Gandalf the Grey",
 		"img": 		"https://vignette.wikia.nocookie.net/lotr/images/8/8d/Gandalf-2.jpg/revision/latest?cb=20130209172436",
 		"rezervacije": [

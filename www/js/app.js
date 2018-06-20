@@ -16,38 +16,7 @@ var app = angular.module('TicketsApp', ['ngRoute'])
       })
       .when('/rezervacije', {
         templateUrl: 'views/rezervacije.html'
-        // controller: 'RezervacijeCtrl',
-        // controllerAs: 'rezervacije'
       })
-      // .when('/inbox', {
-      //   templateUrl: 'views/inbox.html',
-      //   controller: 'InboxCtrl',
-      //   controllerAs: 'inbox'
-      // })
-      // .when('/account', {
-      //   templateUrl: 'views/nalog.html',
-      //   controller: 'NalogCtrl',
-      //   controllerAs: 'nalog'
-      // })
-      // .when('/events/:id', {
-      //   templateUrl: 'views/event-details.html',
-      //   controller: 'EventDetailsCtrl',
-      // })
-      // .when('/admin-events', {
-      //   templateUrl: 'views/admin-predmeti.html',
-      //   controller: 'AdminPredmetiCtrl',
-      //   controllerAs: 'adminPredmeti'
-      // })
-      // .when('/admin-users', {
-      //   templateUrl: 'views/admin-ucenici.html',
-      //   controller: 'AdminUceniciCtrl',
-      //   controllerAs: 'adminUcenici'
-      // })
-      // .when('/admin-nastavnici', {
-      //   templateUrl: 'views/admin-nastavnici.html',
-      //   controller: 'AdminNastavniciCtrl',
-      //   controllerAs: 'adminNastavnici'
-      // })
       .otherwise({
         redirectTo: '/'
       });
@@ -57,13 +26,13 @@ app.controller('MainCtrl', function($scope, $http) {
     var vm = this;
 
     vm.loginForm = false;
-	vm.username = '';
-	vm.password = '';
-	vm.jeUlogovan = false;
-	vm.events = [];
-	vm.users = [];
-	vm.eventDetailView = false;
-  vm.sliderInvisible = false;
+  	vm.username = '';
+    vm.password = '';
+    vm.jeUlogovan = false;
+    vm.events = [];
+    vm.users = [];
+    vm.eventDetailView = false;
+    vm.sliderInvisible = false;
 
     $scope.alerts = [
     ];

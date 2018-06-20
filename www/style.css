@@ -507,17 +507,17 @@ footer {
 
  @-webkit-keyframes fadeOut {
 	0% {opacity: 1;}
-	100% {opacity: 0;}
+	100% {opacity: 0; display: none;}
  }
  
  @keyframes fadeOut {
 	0% {opacity: 1;}
-	100% {opacity: 0;}
+	100% {opacity: 0; display: none;}
  }
  
  .fadeOut {
-	-webkit-animation-duration: 5s;
-	 animation-duration: 5s;
+	-webkit-animation-duration: 10s;
+	 animation-duration: 10s;
 	-webkit-animation-fill-mode: both;
 	 animation-fill-mode: both;
 	-webkit-animation-name: fadeOut;
