@@ -23,7 +23,7 @@
 			<img class="logo" src="logo.png" ng-click="vm.eventDetailView = false;vm.sliderInvisible = false;" />
 			<span class="ulogovan-info shadow" ng-show="vm.jeUlogovan" >
 				<img ng-if="vm.ulogovanKorisnik.img != undefined" src="{{vm.ulogovanKorisnik.img}}" /> <br/>
-				Ulogovan korisnik je:{{vm.ulogovanKorisnik.name}}
+				Ulogovan korisnik je: <strong>{{vm.ulogovanKorisnik.name}}</strong>
 				<button ng-if="vm.jeUlogovan" ng-click="vm.jeUlogovan=false" class="login background-color-red">Logout</button>
 			</span>
 			<ul>
@@ -31,12 +31,10 @@
 				<li ng-click="vm.eventDetailView = false;vm.sliderInvisible=true;"><a href="#!/admin" ng-if="vm.ulogovanKorisnik.type == 'admin'">Admin Panel</a></li>
 				<li ng-click="vm.eventDetailView = false;vm.sliderInvisible=true;"><a href="#">Artists</a></li>
 				<li ng-click="vm.eventDetailView = false;vm.sliderInvisible=true;"><a href="#!/about">About us</a></li>
-				<li ng-click="vm.eventDetailView = false;vm.sliderInvisible=true;" ng-if="vm.jeUlogovan"><a href="#!/rezervacije"> Moje Rezervacije <i class="fas fa-cart-arrow-down"></i></a></li>
-				<!--<li><a href="#"><i class="fas fa-map-marker-alt"></i> Change Location </a></li>-->
+				<li ng-click="vm.eventDetailView = false;vm.sliderInvisible=true;" ng-if="vm.jeUlogovan"><a href="#!/rezervacije"> Reservations <i class="fas fa-cart-arrow-down"></i></a></li>
 				<li>
 					<form class="example" style="max-width:400px">
 					  <input type="text" placeholder="Search for desired artist" name="search2" ng-model="searchText.artist"><i class="fa fa-search"></i>
-					  <!-- <button class="background-color-red" type="submit"><i class="fa fa-search"></i></button> -->
 					</form>
 				</li>
 				<li>
@@ -95,7 +93,7 @@
 			<my-maps id="map" lat="{{vm.event.location.lat}}" lng="{{vm.event.location.lng}}"></my-maps>
 
 			<script type="text/javascript">
-				$('html, body').animate({ scrollTop: 0 }, 2000);
+				$('html, body').animate({ scrollTop: 0 }, 1000);
 			</script>
 
 		</aside>
@@ -147,13 +145,13 @@
 				$("nav ul li").click(function() {
 					$('html, body').animate({
 						scrollTop: $("nav").offset().top
-					}, 2000);
+					}, 1000);
 				});
 
 				$("ol li").click(function() {
 					$('html, body').animate({
 						scrollTop: $("main").offset().top
-					}, 2000);
+					}, 1000);
 				});
 
 				$(".ulogovan-info").click(function(){

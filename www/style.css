@@ -74,6 +74,7 @@ img.logo {
 	padding: 1em;
 	border-radius: 1em;
 	z-index: 50;
+	cursor: pointer;
 }
 .ulogovan-info img {
 	width: 120px;
@@ -568,6 +569,13 @@ footer {
 
 
 
-@media (max-width: 700px) {
-	
+@media (max-width: 950px) {
+	article.event-list-item {
+		width: 27%;
+	}
+}
+@media (max-width: 800px) {
+	article.event-list-item {
+		width: 40%;
+	}
 }
